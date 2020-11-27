@@ -1,0 +1,202 @@
+ ==== (CG) Empty master start ==== 
+ ====(Master)==== Gurobi Optimizer version 9.0.0 build v9.0.0rc2 (linux64)
+ ====(Master)==== Optimize a model with 3072 rows, 6144 columns and 6144 nonzeros
+ ====(Master)==== Coefficient statistics:
+ ====(Master)====   Matrix range     [1e+00, 1e+00]
+ ====(Master)====   Objective range  [1e+00, 1e+00]
+ ====(Master)====   Bounds range     [0e+00, 0e+00]
+ ====(Master)====   RHS range        [2e-02, 1e+02]
+ ====(Master)==== Presolve removed 3072 rows and 6144 columns
+ ====(Master)==== Presolve time: 0.00s
+ ====(Master)==== Presolve: All rows and columns removed
+ ====(Master)==== Iteration    Objective       Primal Inf.    Dual Inf.      Time
+ ====(Master)====        0    1.1583797e+04   0.000000e+00   0.000000e+00      0s
+ ====(Master)==== 
+ ====(Master)==== Solved in 0 iterations and 0.00 seconds
+ ====(Master)==== Optimal objective  1.158379665e+04
+ ====(Master)==== 
+ ====(Master)==== User-callback calls 25, time in user-callback 0.00 sec
+ ==== (CG) Master Objective : 11583.796654 ==== 
+ ==== (CG) Adding 0 start-hints to slave ==== 
+ ==== (CG) Running Slave, iteration 1 ==== 
+ ==== Current Pool-statistics :0/0 old-slave-constraints separated master and actual size :0 ====
+ ==== (CG) Slave generates (obj:25600) with x = -8.98341 ==== 
+( 0, 0 ) [15, 14, 15, 15, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 16, 16, ]
+( 0, 1 ) [14, 15, 15, 15, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 15, 15, ]
+( 0, 2 ) [15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, ]
+( 0, 3 ) [15, 15, 15, 16, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 16, 16, ]
+( 0, 4 ) [15, 15, 15, 15, 16, 15, 15, 15, 15, 16, 16, 16, 16, 16, 16, 16, ]
+( 0, 5 ) [15, 15, 15, 15, 15, 16, 15, 15, 15, 16, 16, 16, 16, 16, 16, 16, ]
+( 0, 6 ) [15, 15, 15, 15, 15, 15, 16, 15, 15, 16, 16, 16, 16, 16, 16, 16, ]
+( 0, 7 ) [15, 15, 15, 15, 15, 15, 15, 16, 15, 16, 16, 16, 16, 16, 16, 16, ]
+( 0, 8 ) [15, 15, 15, 15, 15, 15, 15, 15, 16, 16, 16, 16, 16, 16, 16, 16, ]
+( 0, 9 ) [16, 16, 15, 16, 16, 16, 16, 16, 16, 17, 16, 16, 16, 16, 16, 16, ]
+( 0, 10 ) [16, 16, 15, 16, 16, 16, 16, 16, 16, 16, 17, 16, 16, 16, 16, 16, ]
+( 0, 11 ) [16, 16, 15, 16, 16, 16, 16, 16, 16, 16, 16, 17, 16, 16, 16, 16, ]
+( 0, 12 ) [16, 16, 15, 16, 16, 16, 16, 16, 16, 16, 16, 16, 17, 16, 16, 16, ]
+( 0, 13 ) [16, 16, 15, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 17, 16, 16, ]
+( 0, 14 ) [16, 15, 15, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 17, 16, ]
+( 0, 15 ) [16, 15, 15, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 17, ]
+
+ ==== (CG) Running Master, iteration 1 ==== 
+ ====(Master)==== Gurobi Optimizer version 9.0.0 build v9.0.0rc2 (linux64)
+ ====(Master)==== Optimize a model with 3072 rows, 6145 columns and 6400 nonzeros
+ ====(Master)==== Coefficient statistics:
+ ====(Master)====   Matrix range     [1e+00, 1e+02]
+ ====(Master)====   Objective range  [1e+00, 1e+00]
+ ====(Master)====   Bounds range     [0e+00, 0e+00]
+ ====(Master)====   RHS range        [2e-02, 1e+02]
+ ====(Master)==== Iteration    Objective       Primal Inf.    Dual Inf.      Time
+ ====(Master)====        0    1.1583797e+04   0.000000e+00   1.600000e+03      0s
+ ====(Master)====      128    1.1583797e+04   0.000000e+00   0.000000e+00      0s
+ ====(Master)==== 
+ ====(Master)==== Solved in 128 iterations and 0.02 seconds
+ ====(Master)==== Optimal objective  1.158379665e+04
+ ====(Master)==== 
+ ====(Master)==== User-callback calls 220, time in user-callback 0.00 sec
+ ==== (CG) Master Objective : 11583.796654 ==== 
+ ==== (CG) Running Slave, iteration 2 ==== 
+ ==== Current Pool-statistics :0/1 old-slave-constraints separated master and actual size :0 ====
+ ====(Slave 1) ==== Optimize a model with 853 rows, 1785 columns and 7805 nonzeros
+ ====(Slave 1) ==== Variable types: 153 continuous, 1632 integer (1632 binary)
+ ====(Slave 1) ==== Presolve removed 146 rows and 144 columns
+ ====(Slave 1) ==== Presolve time: 0.06s
+ ====(Slave 1) ==== Presolved: 707 rows, 1641 columns, 7069 nonzeros
+ ====(Slave 1) ==== Variable types: 33 continuous, 1608 integer (1608 binary)
+ ====(Slave 1) ==== Found heuristic solution: objective 25600.000000
+ ====(Slave 1) ==== 
+ ====(Slave 1) ==== Explored 0 nodes (0 simplex iterations) in 0.07 seconds
+ ====(Slave 1) ==== Thread count was 4 (of 4 available processors)
+ ====(Slave 1) ==== 
+ ====(Slave 1) ==== Solution count 1: 25600 
+ ====(Slave 1) ==== 
+ ====(Slave 1) ==== Optimization achieved user objective limit
+ ====(Slave 1) ==== Best objective 2.560000000000e+04, best bound 2.576000000000e+05, gap 906.2500%
+ ====(Slave 1) ==== 
+ ====(Slave 1) ==== User-callback calls 57, time in user-callback 0.00 sec
+ ==== (CG) Slave generates (obj:10000) with x = 1.77165 ==== 
+( 0, 0 ) [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, ]
+( 0, 1 ) [20, 20, 20, 20, 20, 20, 20, 20, 19, 20, 20, 20, 20, 20, 20, 20, ]
+( 0, 2 ) [20, 20, 20, 20, 20, 20, 20, 20, 19, 20, 19, 20, 20, 20, 20, 20, ]
+( 0, 3 ) [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 19, 20, 20, 20, 20, ]
+( 0, 4 ) [20, 20, 20, 20, 20, 20, 20, 20, 20, 19, 19, 20, 19, 20, 20, 20, ]
+( 0, 5 ) [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 19, 19, 20, 20, ]
+( 0, 6 ) [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, ]
+( 0, 7 ) [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, ]
+( 0, 8 ) [20, 19, 19, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, ]
+( 0, 9 ) [20, 20, 20, 20, 19, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, ]
+( 0, 10 ) [20, 20, 19, 20, 19, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, ]
+( 0, 11 ) [20, 20, 20, 19, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, ]
+( 0, 12 ) [20, 20, 20, 20, 19, 19, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, ]
+( 0, 13 ) [20, 20, 20, 20, 20, 19, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, ]
+( 0, 14 ) [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, ]
+( 0, 15 ) [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, ]
+
+ ==== (CG) Running Master, iteration 2 ==== 
+ ====(Master)==== Gurobi Optimizer version 9.0.0 build v9.0.0rc2 (linux64)
+ ====(Master)==== Optimize a model with 3072 rows, 6146 columns and 6656 nonzeros
+ ====(Master)==== Coefficient statistics:
+ ====(Master)====   Matrix range     [1e+00, 1e+02]
+ ====(Master)====   Objective range  [1e+00, 1e+00]
+ ====(Master)====   Bounds range     [0e+00, 0e+00]
+ ====(Master)====   RHS range        [2e-02, 1e+02]
+ ====(Master)==== Iteration    Objective       Primal Inf.    Dual Inf.      Time
+ ====(Master)====        0    1.1583797e+04   0.000000e+00   6.250000e+02      0s
+ ====(Master)====       50    1.1582759e+04   0.000000e+00   0.000000e+00      0s
+ ====(Master)==== 
+ ====(Master)==== Solved in 50 iterations and 0.01 seconds
+ ====(Master)==== Optimal objective  1.158275917e+04
+ ====(Master)==== 
+ ====(Master)==== User-callback calls 308, time in user-callback 0.00 sec
+ ==== (CG) Master Objective : 11582.759169 ==== 
+ ==== (CG) Running Slave, iteration 3 ==== 
+ ==== Current Pool-statistics :0/2 old-slave-constraints separated master and actual size :0 ====
+ ====(Slave 2) ==== Optimize a model with 853 rows, 1785 columns and 7805 nonzeros
+ ====(Slave 2) ==== Variable types: 153 continuous, 1632 integer (1632 binary)
+ ====(Slave 2) ==== Presolve removed 146 rows and 144 columns
+ ====(Slave 2) ==== Presolve time: 0.06s
+ ====(Slave 2) ==== Presolved: 707 rows, 1641 columns, 7069 nonzeros
+ ====(Slave 2) ==== Variable types: 33 continuous, 1608 integer (1608 binary)
+ ====(Slave 2) ====  ==== (LAZY-TANGENTS) Added 2 lazy constraints in 0.000273772 seconds. ====
+ ====(Slave 2) ====  ==== (LAZY-TANGENTS) Ignored GRB_CB_MIPSOL-solution with objective 25600 as it was cutted by lazy tangent! ====
+ ====(Slave 2) ====  ==== (LAZY-TANGENTS) ==== d_0 vs sqrt(q_0)       13.5   13.4907
+ ====(Slave 2) ====  ==== (LAZY-TANGENTS) ==== d_1 vs sqrt(q_1)       13.5   13.4933
+ ====(Slave 2) ==== ( 0, 0 ) [13, 13, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 13, 14, ]
+ ====(Slave 2) ==== ( 0, 1 ) [13, 13, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 13, ]
+ ====(Slave 2) ==== ( 0, 2 ) [14, 14, 13, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, ]
+ ====(Slave 2) ==== ( 0, 3 ) [14, 14, 14, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, ]
+ ====(Slave 2) ==== ( 0, 4 ) [14, 14, 13, 13, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, ]
+ ====(Slave 2) ==== ( 0, 5 ) [14, 14, 13, 13, 13, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, ]
+ ====(Slave 2) ==== ( 0, 6 ) [14, 14, 13, 13, 13, 13, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, ]
+ ====(Slave 2) ==== ( 0, 7 ) [14, 14, 13, 13, 13, 13, 13, 14, 13, 13, 13, 13, 13, 13, 13, 13, ]
+ ====(Slave 2) ==== ( 0, 8 ) [14, 14, 13, 13, 13, 13, 13, 13, 14, 13, 13, 13, 13, 13, 13, 13, ]
+ ====(Slave 2) ==== ( 0, 9 ) [14, 14, 13, 13, 13, 13, 13, 13, 13, 14, 13, 13, 13, 13, 13, 13, ]
+ ====(Slave 2) ==== ( 0, 10 ) [14, 14, 13, 13, 13, 13, 13, 13, 13, 13, 14, 13, 13, 13, 13, 13, ]
+ ====(Slave 2) ==== ( 0, 11 ) [14, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, 14, 13, 13, 13, 13, ]
+ ====(Slave 2) ==== ( 0, 12 ) [14, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 14, 13, 13, 13, ]
+ ====(Slave 2) ==== ( 0, 13 ) [14, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 14, 13, 13, ]
+ ====(Slave 2) ==== ( 0, 14 ) [13, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 14, 13, ]
+ ====(Slave 2) ==== ( 0, 15 ) [14, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 14, ]
+ ====(Slave 2) ==== 
+ ====(Slave 2) ==== 
+ ====(Slave 2) ==== 
+ ====(Slave 2) ==== 
+ ====(Slave 2) ==== Root relaxation: objective 2.560000e+04, 1028 iterations, 0.01 seconds
+ ====(Slave 2) ==== 
+ ====(Slave 2) ====     Nodes    |    Current Node    |     Objective Bounds      |     Work
+ ====(Slave 2) ====  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+ ====(Slave 2) ==== 
+ ====(Slave 2) ====      0     0 25600.0000    0  214          - 25600.0000      -     -    0s
+ ====(Slave 2) ==== H    0     0                    10000.000000 25600.0000   156%     -    0s
+ ====(Slave 2) ==== 
+ ====(Slave 2) ==== Cutting planes:
+ ====(Slave 2) ====   Lazy constraints: 2
+ ====(Slave 2) ==== 
+ ====(Slave 2) ==== Explored 1 nodes (1706 simplex iterations) in 0.17 seconds
+ ====(Slave 2) ==== Thread count was 4 (of 4 available processors)
+ ====(Slave 2) ==== 
+ ====(Slave 2) ==== Solution count 1: 10000 
+ ====(Slave 2) ==== 
+ ====(Slave 2) ==== Optimization achieved user objective limit
+ ====(Slave 2) ==== Best objective 1.000000000000e+04, best bound 2.560000000000e+04, gap 156.0000%
+ ====(Slave 2) ==== 
+ ====(Slave 2) ==== User-callback calls 129, time in user-callback 0.00 sec
+ ==== (CG) Slave generates (obj:25600) with x = 3.4252 ==== 
+( 0, 0 ) [14, 13, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 13, 14, ]
+( 0, 1 ) [13, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, ]
+( 0, 2 ) [14, 14, 14, 14, 14, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, ]
+( 0, 3 ) [14, 14, 14, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, ]
+( 0, 4 ) [14, 14, 14, 13, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, ]
+( 0, 5 ) [14, 14, 14, 13, 13, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, ]
+( 0, 6 ) [14, 14, 13, 13, 13, 13, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, ]
+( 0, 7 ) [14, 14, 13, 13, 13, 13, 13, 14, 13, 13, 13, 13, 13, 13, 13, 13, ]
+( 0, 8 ) [14, 14, 13, 13, 13, 13, 13, 13, 14, 13, 13, 13, 13, 13, 13, 13, ]
+( 0, 9 ) [14, 14, 13, 13, 13, 13, 13, 13, 13, 14, 13, 13, 13, 13, 13, 13, ]
+( 0, 10 ) [14, 14, 13, 13, 13, 13, 13, 13, 13, 13, 14, 13, 13, 13, 13, 13, ]
+( 0, 11 ) [14, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, 14, 13, 13, 13, 13, ]
+( 0, 12 ) [14, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 14, 13, 13, 13, ]
+( 0, 13 ) [14, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 14, 13, 13, ]
+( 0, 14 ) [13, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 14, 13, ]
+( 0, 15 ) [14, 14, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, 13, ]
+
+ ==== (CG) Running Master, iteration 3 ==== 
+ ====(Master)==== Gurobi Optimizer version 9.0.0 build v9.0.0rc2 (linux64)
+ ====(Master)==== Optimize a model with 3072 rows, 6147 columns and 6912 nonzeros
+ ====(Master)==== Coefficient statistics:
+ ====(Master)====   Matrix range     [1e+00, 1e+02]
+ ====(Master)====   Objective range  [1e+00, 1e+00]
+ ====(Master)====   Bounds range     [0e+00, 0e+00]
+ ====(Master)====   RHS range        [2e-02, 1e+02]
+ ====(Master)==== Iteration    Objective       Primal Inf.    Dual Inf.      Time
+ ====(Master)====        0    1.1582759e+04   0.000000e+00   1.600000e+03      0s
+ ====(Master)====      128    1.1582759e+04   0.000000e+00   0.000000e+00      0s
+ ====(Master)==== 
+ ====(Master)==== Solved in 128 iterations and 0.02 seconds
+ ====(Master)==== Optimal objective  1.158275917e+04
+ ====(Master)==== 
+ ====(Master)==== User-callback calls 502, time in user-callback 0.00 sec
+ ==== (CG) Master Objective : 11582.759169 ==== 
+ ==== (CG) ended!
+Final Master objective: 11582.8
+Columns in Master: 3
+Needed time: 0.00731595 minutes ==== 

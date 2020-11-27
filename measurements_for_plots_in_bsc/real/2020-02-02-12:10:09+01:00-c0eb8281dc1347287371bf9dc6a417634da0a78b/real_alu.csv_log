@@ -1,0 +1,118 @@
+ ==== (CG) Empty master start ==== 
+ ====(Master)==== Optimize a model with 331776 rows, 663552 columns and 663552 nonzeros
+ ====(Master)==== Coefficient statistics:
+ ====(Master)====   Matrix range     [1e+00, 1e+00]
+ ====(Master)====   Objective range  [1e+00, 1e+00]
+ ====(Master)====   Bounds range     [0e+00, 0e+00]
+ ====(Master)====   RHS range        [3e-02, 1e+02]
+ ====(Master)==== Presolve removed 331776 rows and 663552 columns
+ ====(Master)==== Presolve time: 0.22s
+ ====(Master)==== Presolve: All rows and columns removed
+ ====(Master)==== Iteration    Objective       Primal Inf.    Dual Inf.      Time
+ ====(Master)====        0    4.3776073e+05   0.000000e+00   0.000000e+00      0s
+ ====(Master)==== 
+ ====(Master)==== Solved in 0 iterations and 0.41 seconds
+ ====(Master)==== Optimal objective  4.377607283e+05
+ ==== (CG) Master Objective : 437760.728291 ==== 
+ ==== (CG) Adding 0 start-hints to slave ==== 
+ ==== (CG) Running Slave, iteration 1 ==== 
+ ==== Current Pool-statistics :0/0 old-slave-constraints separated master and actual size :0 ====
+ ====(Slave 1) ==== Optimize a model with 20017 rows, 176409 columns and 21398713 nonzeros
+ ====(Slave 1) ==== Variable types: 153 continuous, 176256 integer (176256 binary)
+ ====(Slave 1) ==== Presolve removed 120 rows and 120 columns (presolve time = 6s) ...
+ ====(Slave 1) ==== Presolve removed 120 rows and 120 columns (presolve time = 11s) ...
+ ====(Slave 1) ==== Presolve removed 120 rows and 120 columns (presolve time = 22s) ...
+ ====(Slave 1) ==== Presolve removed 120 rows and 120 columns
+ ====(Slave 1) ==== Presolve time: 21.56s
+ ====(Slave 1) ==== Presolved: 19897 rows, 176289 columns, 21398323 nonzeros
+ ====(Slave 1) ==== Variable types: 33 continuous, 176256 integer (176256 binary)
+ ====(Slave 1) ==== 
+ ====(Slave 1) ==== Deterministic concurrent LP optimizer: primal and dual simplex
+ ====(Slave 1) ==== Showing first log only...
+ ====(Slave 1) ==== 
+ ====(Slave 1) ==== 
+ ====(Slave 1) ==== Root simplex log...
+ ====(Slave 1) ==== 
+ ====(Slave 1) ==== Iteration    Objective       Primal Inf.    Dual Inf.      Time
+ ====(Slave 1) ====        0    1.5158452e+05   8.375556e+04   5.518969e+08     38s
+ ====(Slave 1) ====     1234    1.0451549e+05   2.929820e-02   1.818711e+09     40s
+ ====(Slave 1) ==== Concurrent spin time: 0.00s
+ ====(Slave 1) ==== 
+ ====(Slave 1) ==== Solved with dual simplex
+ ====(Slave 1) ==== 
+ ====(Slave 1) ==== Root relaxation: objective 1.827717e+05, 949 iterations, 11.13 seconds
+ ====(Slave 1) ==== Total elapsed time = 447.71s
+ ====(Slave 1) ==== 
+ ====(Slave 1) ====     Nodes    |    Current Node    |     Objective Bounds      |     Work
+ ====(Slave 1) ====  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+ ====(Slave 1) ==== 
+ ====(Slave 1) ====      0     0 182771.675    0  335          - 182771.675      -     -  453s
+ ====(Slave 1) ====      0     0 181908.603    0  380          - 181908.603      -     - 1254s
+ ====(Slave 1) ====      0     0 181894.354    0  382          - 181894.354      -     - 1294s
+ ====(Slave 1) ====      0     0 180718.193    0  497          - 180718.193      -     - 2104s
+ ====(Slave 1) ====      0     0 180669.427    0  511          - 180669.427      -     - 2134s
+ ====(Slave 1) ====      0     0 180664.071    0  511          - 180664.071      -     - 2162s
+ ====(Slave 1) ====      0     0 180661.094    0  517          - 180661.094      -     - 2184s
+ ====(Slave 1) ====      0     0 180659.806    0  517          - 180659.806      -     - 2204s
+ ====(Slave 1) ====      0     0 180658.390    0  518          - 180658.390      -     - 2226s
+ ====(Slave 1) ====      0     0 180657.731    0  518          - 180657.731      -     - 2238s
+ ====(Slave 1) ====      0     0 180141.911    0  514          - 180141.911      -     - 3174s
+ ====(Slave 1) ====      0     0 180085.944    0  542          - 180085.944      -     - 3239s
+ ====(Slave 1) ====  ==== (CALLBACK) ==== A randomised solution was found but not accepted by gurobi!
+ ====(Slave 1) ====      0     0 180065.316    0  533          - 180065.316      -     - 3325s
+ ====(Slave 1) ====  ==== (CALLBACK) ==== A rounded_down solution was found but not accepted by gurobi!
+ ====(Slave 1) ====      0     0 180062.572    0  531          - 180062.572      -     - 3345s
+ ====(Slave 1) ====  ==== (LAZY-TANGENTS-FAIL) Added no tangents 
+ ====(Slave 1) ====      0     0 180060.883    0  520          - 180060.883      -     - 3368s
+ ====(Slave 1) ====      0     0 180058.248    0  530          - 180058.248      -     - 3375s
+ ====(Slave 1) ====      0     0 180058.183    0  531          - 180058.183      -     - 3383s
+ ====(Slave 1) ====      0     0 179890.948    0  562          - 179890.948      -     - 4446s
+ ====(Slave 1) ====      0     0 179855.213    0  574          - 179855.213      -     - 4541s
+ ====(Slave 1) ====      0     0 179844.237    0  580          - 179844.237      -     - 4566s
+ ====(Slave 1) ====      0     0 179841.004    0  580          - 179841.004      -     - 4594s
+ ====(Slave 1) ====      0     0 179840.476    0  588          - 179840.476      -     - 4602s
+ ====(Slave 1) ====      0     0 179840.137    0  583          - 179840.137      -     - 4611s
+ ====(Slave 1) ====      0     0 179635.482    0  568          - 179635.482      -     - 10470s
+ ====(Slave 1) ====      0     0 179611.183    0  601          - 179611.183      -     - 10851s
+ ====(Slave 1) ====      0     0 179606.636    0  595          - 179606.636      -     - 11021s
+ ====(Slave 1) ====      0     0 179606.262    0  595          - 179606.262      -     - 11066s
+ ====(Slave 1) ====      0     0 179497.393    0  563          - 179497.393      -     - 20275s
+ ====(Slave 1) ====  ==== (CALLBACK) ==== A randomised solution was found but not accepted by gurobi!
+ ====(Slave 1) ====      0     0 179464.938    0  583          - 179464.938      -     - 21003s
+ ====(Slave 1) ====      0     0 179453.550    0  591          - 179453.550      -     - 21124s
+ ====(Slave 1) ====  ==== (CALLBACK) ==== A rounded_down solution was found but not accepted by gurobi!
+ ====(Slave 1) ====      0     0 179451.859    0  590          - 179451.859      -     - 21230s
+ ====(Slave 1) ====      0     0 179450.916    0  596          - 179450.916      -     - 21264s
+ ====(Slave 1) ====  ==== (LAZY-TANGENTS-FAIL) Added no tangents 
+ ====(Slave 1) ====      0     0 179450.904    0  597          - 179450.904      -     - 21297s
+ ====(Slave 1) ====      0     0 179397.434    0  586          - 179397.434      -     - 29818s
+ ====(Slave 1) ====      0     0 179385.278    0  594          - 179385.278      -     - 30091s
+ ====(Slave 1) ====      0     0 179383.845    0  595          - 179383.845      -     - 30184s
+ ====(Slave 1) ====      0     0 179363.246    0  598          - 179363.246      -     - 40187s
+ ====(Slave 1) ====      0     0 179356.916    0  601          - 179356.916      -     - 40397s
+ ====(Slave 1) ====      0     0 179354.209    0  606          - 179354.209      -     - 40472s
+ ====(Slave 1) ====      0     0 179352.421    0  602          - 179352.421      -     - 40515s
+ ====(Slave 1) ====      0     0 179351.447    0  613          - 179351.447      -     - 40563s
+ ====(Slave 1) ====      0     0 179351.213    0  613          - 179351.213      -     - 40658s
+ ====(Slave 1) ====      0     0 179323.790    0  604          - 179323.790      -     - 50514s
+ ====(Slave 1) ====      0     0 179314.196    0  606          - 179314.196      -     - 50689s
+ ====(Slave 1) ====      0     0 179313.246    0  606          - 179313.246      -     - 50724s
+ ====(Slave 1) ====      0     0 179312.096    0  601          - 179312.096      -     - 50756s
+ ====(Slave 1) ====      0     0 179311.399    0  600          - 179311.399      -     - 50789s
+ ====(Slave 1) ====      0     0 179310.739    0  604          - 179310.739      -     - 50863s
+ ====(Slave 1) ====      0     0 179310.666    0  603          - 179310.666      -     - 50910s
+ ====(Slave 1) ====  ==== (CALLBACK) ==== A randomised solution was found but not accepted by gurobi!
+ ====(Slave 1) ====      0     0 179239.319    0  607          - 179239.319      -     - 61882s
+ ====(Slave 1) ====      0     0 179228.486    0  598          - 179228.486      -     - 62207s
+ ====(Slave 1) ====      0     0 179226.962    0  599          - 179226.962      -     - 62343s
+ ====(Slave 1) ====  ==== (CALLBACK) ==== A rounded_down solution was found but not accepted by gurobi!
+ ====(Slave 1) ====      0     0 179225.691    0  598          - 179225.691      -     - 62497s
+ ====(Slave 1) ====      0     0 179225.134    0  601          - 179225.134      -     - 62557s
+ ====(Slave 1) ====      0     0 179224.872    0  601          - 179224.872      -     - 62596s
+ ====(Slave 1) ====  ==== (LAZY-TANGENTS-FAIL) Added no tangents 
+ ====(Slave 1) ====      0     0 179214.812    0  610          - 179214.812      -     - 73070s
+ ====(Slave 1) ====      0     0 179204.288    0  604          - 179204.288      -     - 73276s
+ ====(Slave 1) ====      0     0 179199.231    0  609          - 179199.231      -     - 73370s
+ ====(Slave 1) ====      0     0 179197.770    0  616          - 179197.770      -     - 73457s
+ ====(Slave 1) ====      0     0 179196.825    0  618          - 179196.825      -     - 73511s
+ ====(Slave 1) ====      0     0 179196.515    0  614          - 179196.515      -     - 73571s

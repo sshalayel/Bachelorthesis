@@ -1,0 +1,17 @@
+#measurement_file;reference_file;max_columns;x_position;pitch;sampling_rate;wave_speed;elements;wave_length;slave_threshold;samples;reference_samples;verbose;output;slavestop
+#depth 10
+#./data/simulated/one_reflector_multiple_heights/10_fmc.bin;./data/simulated/one_reflector_multiple_heights/reference_signal.csv;500;44e-3;1.2e-3;20e6;6350;16;0.00127;5;620;64;true;one_reflector_multiple_heights/10_fmc.log;10000;36;
+#depth 10, 4x4
+#./data/simulated/one_reflector_multiple_heights/4x4_10_fmc.bin;./data/simulated/one_reflector_multiple_heights/reference_signal.csv;500;44e-3;1.2e-3;20e6;6350;4;0.00127;5;620;64;true;4x4_one_reflector_multiple_heights/10_fmc.log;10000;36;
+#depth 20
+#./data/simulated/one_reflector_multiple_heights/20_fmc.bin;./data/simulated/one_reflector_multiple_heights/reference_signal.csv;500;44e-3;1.2e-3;20e6;6350;16;0.00127;5;557;64;true;one_reflector_multiple_heights/20_fmc.log;10000;99;
+#depth 30
+#./data/simulated/one_reflector_multiple_heights/30_fmc.bin;./data/simulated/one_reflector_multiple_heights/reference_signal.csv;30;44e-3;1.2e-3;20e6;6350;16;0.00127;5;494;64;true;one_reflector_multiple_heights/30_fmc.log;1000000000;162;
+#depth 40
+#./data/simulated/one_reflector_multiple_heights/40_fmc.bin;./data/simulated/one_reflector_multiple_heights/reference_signal.csv;500;44e-3;1.2e-3;20e6;6350;16;0.00127;5;431;64;true;one_reflector_multiple_heights/40_fmc.log;10000;225;
+#4x4
+#./data/simulated/one_reflector_multiple_heights/4x4_40_fmc.bin;./data/simulated/one_reflector_multiple_heights/reference_signal.csv;500;44e-3;1.2e-3;20e6;6350;16;0.00127;5;431;64;true;one_reflector_multiple_heights/40_fmc.log;10000;225;
+#depth 50
+./data/simulated/one_reflector_multiple_heights/50_fmc.bin;./data/simulated/one_reflector_multiple_heights/reference_signal.csv;11;44e-3;1.2e-3;20e6;6350;16;0.00127;5;367;64;true;one_reflector_multiple_heights/50_fmc.log;100;289;
+# depth50 but with 4 elements
+#./data/simulated/one_reflector_multiple_heights/4x4_50_fmc.bin;./data/simulated/one_reflector_multiple_heights/reference_signal.csv;30;44e-3;1.2e-3;20e6;6350;4;0.00127;5;367;64;true;4x4_one_reflector_multiple_heights/50_fmc.log;10000;289;

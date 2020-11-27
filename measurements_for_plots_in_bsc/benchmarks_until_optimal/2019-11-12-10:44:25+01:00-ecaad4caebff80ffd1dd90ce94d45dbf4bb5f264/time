@@ -1,0 +1,5 @@
+
+==== (CURRENT TIME) ==== 2019-11-12T10:44:25.490622
+Running 1000000 columns, saft set to 1, slavestop is 10000 on ./benchmarks_until_optimal/2019-11-12-10:44:25+01:00-ecaad4caebff80ffd1dd90ce94d45dbf4bb5f264/benchmark.csv_log, extra args is  --saft_resolution 2000  :
+Executing ,,./benchmarks_until_optimal/2019-11-12-10:44:25+01:00-ecaad4caebff80ffd1dd90ce94d45dbf4bb5f264/EXEC -C ./configs/benchmark.csv  --saft_resolution 2000  --slavestop 10000 --max_columns 1000000 --saft 1 -o ./benchmarks_until_optimal/2019-11-12-10:44:25+01:00-ecaad4caebff80ffd1dd90ce94d45dbf4bb5f264/benchmark.csv_log'' ...
+

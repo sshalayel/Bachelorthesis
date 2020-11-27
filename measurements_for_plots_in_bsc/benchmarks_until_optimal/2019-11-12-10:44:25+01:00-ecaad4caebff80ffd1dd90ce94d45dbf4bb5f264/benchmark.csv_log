@@ -1,0 +1,61 @@
+ ==== (CG) Empty master start ==== 
+Optimize a model with 110336 rows, 220672 columns and 220672 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [6e-05, 1e+02]
+Presolve removed 110336 rows and 220672 columns
+Presolve time: 0.06s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.4478947e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.10 seconds
+Optimal objective  1.447894664e+05
+ ==== (CG) Master Objective : 144789.466374 ==== 
+ ==== (CG) Adding 0 start-hints to slave ==== 
+ ==== (CG) Running Slave, iteration 1 ==== 
+ ==== Current Pool-statistics :0/0 old-slave-constraints separated master and actual size :0 ====
+ ==== (Output of slave 1) ====
+Optimize a model with 577 rows, 58769 columns and 190353 nonzeros
+Variable types: 153 continuous, 58616 integer (58616 binary)
+Presolve removed 135 rows and 135 columns
+Presolve time: 0.27s
+Presolved: 442 rows, 58634 columns, 189945 nonzeros
+Variable types: 18 continuous, 58616 integer (58616 binary)
+
+Root relaxation: objective 1.038357e+05, 790 iterations, 0.07 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 103835.658    0  164          - 103835.658      -     -    1s
+H    0     0                    103835.42929 103835.658  0.00%     -    1s
+
+Explored 1 nodes (850 simplex iterations) in 1.65 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 103835 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.038354292880e+05, best bound 1.038356584848e+05, gap 0.0002%
+ ==== (CG) Slave generates (obj:103835) with x = 56.6929 ==== 
+( 0, 0 ) [241, 240, 239, 238, 238, 238, 237, 237, 237, 237, 238, 238, 239, 239, 240, 241, ]
+( 0, 1 ) [240, 239, 238, 238, 237, 237, 237, 237, 237, 237, 237, 237, 238, 238, 239, 240, ]
+( 0, 2 ) [239, 238, 238, 237, 237, 236, 236, 236, 236, 236, 236, 237, 237, 238, 238, 239, ]
+( 0, 3 ) [238, 238, 237, 236, 236, 236, 235, 235, 235, 235, 236, 236, 236, 237, 238, 239, ]
+( 0, 4 ) [238, 237, 237, 236, 236, 235, 235, 235, 235, 235, 235, 236, 236, 237, 237, 238, ]
+( 0, 5 ) [238, 237, 236, 236, 235, 235, 235, 235, 235, 235, 235, 235, 236, 236, 237, 238, ]
+( 0, 6 ) [237, 237, 236, 235, 235, 235, 234, 234, 234, 234, 235, 235, 235, 236, 237, 237, ]
+( 0, 7 ) [237, 237, 236, 235, 235, 235, 234, 234, 234, 234, 235, 235, 235, 236, 237, 237, ]
+( 0, 8 ) [237, 237, 236, 235, 235, 235, 234, 234, 234, 234, 234, 235, 235, 236, 237, 237, ]
+( 0, 9 ) [237, 237, 236, 235, 235, 235, 234, 234, 234, 234, 235, 235, 235, 236, 237, 237, ]
+( 0, 10 ) [238, 237, 236, 236, 235, 235, 235, 235, 234, 235, 235, 235, 236, 236, 237, 238, ]
+( 0, 11 ) [238, 237, 237, 236, 236, 235, 235, 235, 235, 235, 235, 235, 236, 236, 237, 238, ]
+( 0, 12 ) [239, 238, 237, 236, 236, 236, 235, 235, 235, 235, 236, 236, 236, 237, 238, 238, ]
+( 0, 13 ) [239, 238, 238, 237, 237, 236, 236, 236, 236, 236, 236, 236, 237, 238, 238, 239, ]
+( 0, 14 ) [240, 239, 238, 238, 237, 237, 237, 237, 237, 237, 237, 237, 238, 238, 239, 240, ]
+( 0, 15 ) [241, 240, 239, 239, 238, 238, 237, 237, 237, 237, 238, 238, 238, 239, 240, 241, ]
+
+ ==== (CG) Running Master, iteration 1 ==== 

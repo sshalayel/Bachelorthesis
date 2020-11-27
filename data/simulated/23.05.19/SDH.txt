@@ -1,0 +1,8 @@
+Koordinatensystem ist oben links
+    I ---- X-Richtung ---->
+   Z-Richtung
+    I
+    V
+Side Drilled Holes für ,,small_specimen''
+SDH 1: (5, 50, 5)
+SDH 2: (12, 50 ,9)

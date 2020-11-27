@@ -1,0 +1,2 @@
+#depth 30
+./data/simulated/one_reflector_multiple_heights/30_fmc.bin;./data/simulated/one_reflector_multiple_heights/reference_signal.csv;30;44e-3;1.2e-3;20e6;6350;16;0.00127;5;494;64;true;one_reflector_multiple_heights/30_fmc.log;1000000000;162;

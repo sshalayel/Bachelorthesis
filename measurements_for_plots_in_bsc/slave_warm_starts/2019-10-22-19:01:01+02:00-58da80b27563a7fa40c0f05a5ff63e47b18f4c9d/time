@@ -1,0 +1,5 @@
+
+==== (CURRENT TIME) ==== 2019-10-22T19:01:01.949825
+Running 10 columns, saft set to 1, slavestop is 10000 on ./slave_warm_starts/2019-10-22-19:01:01+02:00-58da80b27563a7fa40c0f05a5ff63e47b18f4c9d/20_ormh.csv_warm_999.cgdump_log, extra args is  --slave_warm_start configs/master_solver_benchmarks/huge/20_ormh.csv_warm_999.cgdump :
+Executing ,,./slave_warm_starts/2019-10-22-19:01:01+02:00-58da80b27563a7fa40c0f05a5ff63e47b18f4c9d/EXEC  --slave_warm_start configs/master_solver_benchmarks/huge/20_ormh.csv_warm_999.cgdump --slavestop 10000 --max_columns 10 --saft 1 -o ./slave_warm_starts/2019-10-22-19:01:01+02:00-58da80b27563a7fa40c0f05a5ff63e47b18f4c9d/20_ormh.csv_warm_999.cgdump_log'' ...
+

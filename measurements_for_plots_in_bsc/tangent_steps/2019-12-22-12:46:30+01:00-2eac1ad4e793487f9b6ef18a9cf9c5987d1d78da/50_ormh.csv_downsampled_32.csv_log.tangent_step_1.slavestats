@@ -1,0 +1,4 @@
+#iteration;objective;elapsed_run_time;best_objective;best_objective_bound;explored_node_count;feasible_solutions_count;used_old_slave_solutions;total_old_slave_solutions;solutions_in_pool
+1;25600;0.073997;25600;257600;0;0;0;1;0;1;
+2;25600;0.145015;25600;238700;0;0;0;2;0;2;
+3;25600;0.0690541;25600;225500;0;0;0;3;0;3;

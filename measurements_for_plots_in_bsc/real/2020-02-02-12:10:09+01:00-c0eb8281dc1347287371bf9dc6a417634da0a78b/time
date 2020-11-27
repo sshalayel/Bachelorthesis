@@ -1,0 +1,5 @@
+
+==== (CURRENT TIME) ==== 2020-02-02T12:10:09.266096
+Running 400 columns, saft set to 1, slavestop is None on ././2020-02-02-12:10:09+01:00-c0eb8281dc1347287371bf9dc6a417634da0a78b/real_alu.csv_log, extra args is  :
+Executing ,,././2020-02-02-12:10:09+01:00-c0eb8281dc1347287371bf9dc6a417634da0a78b/EXEC -C configs/real_alu.csv  --max_columns 400 --saft 1 -o ././2020-02-02-12:10:09+01:00-c0eb8281dc1347287371bf9dc6a417634da0a78b/real_alu.csv_log'' ...
+

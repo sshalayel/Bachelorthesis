@@ -1,0 +1,2021 @@
+ ==== (CG) Empty master start ==== 
+Optimize a model with 142592 rows, 285184 columns and 285184 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [7e-05, 1e+02]
+Presolve removed 142592 rows and 285184 columns
+Presolve time: 0.07s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.7905413e+05   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.14 seconds
+Optimal objective  1.790541331e+05
+ ==== (CG) Master Objective : 179054.133068 ==== 
+ ==== (CG) Adding 1184 start-hints to slave ==== 
+ ==== (CG) Running Slave, iteration 1 ==== 
+ ==== Current Pool-statistics :0/0 old-slave-constraints separated master and actual size :0 ====
+ ==== (Output of slave 1) ====
+Optimize a model with 577 rows, 75905 columns and 245793 nonzeros
+Variable types: 153 continuous, 75752 integer (75752 binary)
+
+MIP start 0 produced solution with objective 5354.37 (0.08s)
+Loaded MIP start 0 with objective 5354.37
+MIP start 1 did not produce a new incumbent solution
+MIP start 2 did not produce a new incumbent solution
+MIP start 3 did not produce a new incumbent solution
+MIP start 4 did not produce a new incumbent solution
+MIP start 5 did not produce a new incumbent solution
+MIP start 6 did not produce a new incumbent solution
+MIP start 7 did not produce a new incumbent solution
+MIP start 8 produced solution with objective 23249.1 (0.50s)
+Loaded MIP start 8 with objective 23249.1
+MIP start 9 did not produce a new incumbent solution
+MIP start 10 did not produce a new incumbent solution
+MIP start 11 did not produce a new incumbent solution
+MIP start 12 did not produce a new incumbent solution
+MIP start 13 did not produce a new incumbent solution
+MIP start 14 did not produce a new incumbent solution
+MIP start 15 did not produce a new incumbent solution
+MIP start 16 produced solution with objective 31336.4 (0.92s)
+Loaded MIP start 16 with objective 31336.4
+MIP start 17 did not produce a new incumbent solution
+MIP start 18 did not produce a new incumbent solution
+ ==== (CG) Slave generates (obj:31336.4) with x = 55.473 ==== 
+( 0, 0 ) [130, 128, 127, 126, 125, 124, 124, 124, 124, 124, 124, 125, 126, 127, 129, 130, ]
+( 0, 1 ) [128, 127, 125, 124, 123, 123, 122, 122, 122, 122, 123, 124, 125, 126, 127, 129, ]
+( 0, 2 ) [127, 125, 124, 123, 122, 121, 121, 121, 121, 121, 122, 122, 123, 124, 126, 127, ]
+( 0, 3 ) [126, 124, 123, 122, 121, 120, 120, 120, 120, 120, 120, 121, 122, 123, 125, 126, ]
+( 0, 4 ) [125, 123, 122, 121, 120, 119, 119, 119, 119, 119, 119, 120, 121, 122, 124, 125, ]
+( 0, 5 ) [124, 123, 121, 120, 119, 119, 118, 118, 118, 118, 119, 120, 120, 122, 123, 125, ]
+( 0, 6 ) [124, 122, 121, 120, 119, 118, 118, 118, 118, 118, 118, 119, 120, 121, 123, 124, ]
+( 0, 7 ) [124, 122, 121, 120, 119, 118, 118, 117, 117, 118, 118, 119, 120, 121, 122, 124, ]
+( 0, 8 ) [124, 122, 121, 120, 119, 118, 118, 117, 117, 118, 118, 119, 120, 121, 122, 124, ]
+( 0, 9 ) [124, 122, 121, 120, 119, 118, 118, 118, 118, 118, 118, 119, 120, 121, 123, 124, ]
+( 0, 10 ) [124, 123, 122, 120, 119, 119, 118, 118, 118, 118, 119, 120, 121, 122, 123, 125, ]
+( 0, 11 ) [125, 124, 122, 121, 120, 120, 119, 119, 119, 119, 120, 120, 121, 123, 124, 125, ]
+( 0, 12 ) [126, 125, 123, 122, 121, 120, 120, 120, 120, 120, 121, 121, 122, 123, 125, 126, ]
+( 0, 13 ) [127, 126, 124, 123, 122, 122, 121, 121, 121, 121, 122, 123, 123, 125, 126, 128, ]
+( 0, 14 ) [129, 127, 126, 125, 124, 123, 123, 122, 122, 123, 123, 124, 125, 126, 127, 129, ]
+( 0, 15 ) [130, 129, 127, 126, 125, 125, 124, 124, 124, 124, 125, 125, 126, 128, 129, 131, ]
+
+ ==== (CG) Slave generates (obj:31336.4) with x = 55.473 ==== 
+( 0, 0 ) [130, 128, 127, 126, 125, 124, 124, 124, 124, 124, 124, 125, 126, 127, 129, 130, ]
+( 0, 1 ) [128, 127, 125, 124, 123, 123, 122, 122, 122, 122, 123, 124, 125, 126, 127, 129, ]
+( 0, 2 ) [127, 125, 124, 123, 122, 121, 121, 121, 121, 121, 122, 122, 123, 124, 126, 127, ]
+( 0, 3 ) [126, 124, 123, 122, 121, 120, 120, 120, 120, 120, 120, 121, 122, 123, 125, 126, ]
+( 0, 4 ) [125, 123, 122, 121, 120, 119, 119, 119, 119, 119, 119, 120, 121, 122, 124, 125, ]
+( 0, 5 ) [124, 123, 121, 120, 119, 119, 118, 118, 118, 118, 119, 120, 120, 122, 123, 125, ]
+( 0, 6 ) [124, 122, 121, 120, 119, 118, 118, 118, 118, 118, 118, 119, 120, 121, 123, 124, ]
+( 0, 7 ) [124, 122, 121, 120, 119, 118, 118, 117, 117, 118, 118, 119, 120, 121, 122, 124, ]
+( 0, 8 ) [124, 122, 121, 120, 119, 118, 118, 117, 117, 118, 118, 119, 120, 121, 122, 124, ]
+( 0, 9 ) [124, 122, 121, 120, 119, 118, 118, 118, 118, 118, 118, 119, 120, 121, 123, 124, ]
+( 0, 10 ) [124, 123, 122, 120, 119, 119, 118, 118, 118, 118, 119, 120, 121, 122, 123, 125, ]
+( 0, 11 ) [125, 124, 122, 121, 120, 120, 119, 119, 119, 119, 120, 120, 121, 123, 124, 125, ]
+( 0, 12 ) [126, 125, 123, 122, 121, 120, 120, 120, 120, 120, 121, 121, 122, 123, 125, 126, ]
+( 0, 13 ) [127, 126, 124, 123, 122, 122, 121, 121, 121, 121, 122, 123, 123, 125, 126, 128, ]
+( 0, 14 ) [129, 127, 126, 125, 124, 123, 123, 122, 122, 123, 123, 124, 125, 126, 127, 129, ]
+( 0, 15 ) [130, 129, 127, 126, 125, 125, 124, 124, 124, 124, 125, 125, 126, 128, 129, 131, ]
+
+ ==== (CG) Slave generates (obj:23249.1) with x = 36.2711 ==== 
+( 0, 0 ) [628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 629, 629, 629, 630, 630, ]
+( 0, 1 ) [628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 629, 629, 629, 630, ]
+( 0, 2 ) [628, 628, 628, 628, 627, 627, 627, 628, 628, 628, 628, 628, 629, 629, 629, 630, ]
+( 0, 3 ) [628, 628, 628, 627, 627, 627, 627, 627, 628, 628, 628, 628, 628, 629, 629, 630, ]
+( 0, 4 ) [628, 628, 627, 627, 627, 627, 627, 627, 627, 628, 628, 628, 628, 629, 629, 629, ]
+( 0, 5 ) [628, 628, 627, 627, 627, 627, 627, 627, 627, 628, 628, 628, 628, 629, 629, 629, ]
+( 0, 6 ) [628, 628, 627, 627, 627, 627, 627, 627, 627, 628, 628, 628, 628, 629, 629, 629, ]
+( 0, 7 ) [628, 628, 628, 627, 627, 627, 627, 627, 627, 628, 628, 628, 628, 629, 629, 629, ]
+( 0, 8 ) [628, 628, 628, 628, 627, 627, 627, 627, 628, 628, 628, 628, 628, 629, 629, 630, ]
+( 0, 9 ) [628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 629, 629, 629, 630, ]
+( 0, 10 ) [628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 629, 629, 629, 630, 630, ]
+( 0, 11 ) [629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 629, 629, 629, 629, 630, 630, ]
+( 0, 12 ) [629, 629, 629, 628, 628, 628, 628, 628, 628, 629, 629, 629, 629, 630, 630, 630, ]
+( 0, 13 ) [629, 629, 629, 629, 629, 629, 629, 629, 629, 629, 629, 629, 630, 630, 630, 631, ]
+( 0, 14 ) [630, 629, 629, 629, 629, 629, 629, 629, 629, 629, 630, 630, 630, 630, 631, 631, ]
+( 0, 15 ) [630, 630, 630, 630, 629, 629, 629, 629, 630, 630, 630, 630, 630, 631, 631, 632, ]
+
+ ==== (CG) Slave generates (obj:23249.1) with x = 36.2711 ==== 
+( 0, 0 ) [628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 629, 629, 629, 630, 630, ]
+( 0, 1 ) [628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 629, 629, 629, 630, ]
+( 0, 2 ) [628, 628, 628, 628, 627, 627, 627, 628, 628, 628, 628, 628, 629, 629, 629, 630, ]
+( 0, 3 ) [628, 628, 628, 627, 627, 627, 627, 627, 628, 628, 628, 628, 628, 629, 629, 630, ]
+( 0, 4 ) [628, 628, 627, 627, 627, 627, 627, 627, 627, 628, 628, 628, 628, 629, 629, 629, ]
+( 0, 5 ) [628, 628, 627, 627, 627, 627, 627, 627, 627, 628, 628, 628, 628, 629, 629, 629, ]
+( 0, 6 ) [628, 628, 627, 627, 627, 627, 627, 627, 627, 628, 628, 628, 628, 629, 629, 629, ]
+( 0, 7 ) [628, 628, 628, 627, 627, 627, 627, 627, 627, 628, 628, 628, 628, 629, 629, 629, ]
+( 0, 8 ) [628, 628, 628, 628, 627, 627, 627, 627, 628, 628, 628, 628, 628, 629, 629, 630, ]
+( 0, 9 ) [628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 629, 629, 629, 630, ]
+( 0, 10 ) [628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 629, 629, 629, 630, 630, ]
+( 0, 11 ) [629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 629, 629, 629, 629, 630, 630, ]
+( 0, 12 ) [629, 629, 629, 628, 628, 628, 628, 628, 628, 629, 629, 629, 629, 630, 630, 630, ]
+( 0, 13 ) [629, 629, 629, 629, 629, 629, 629, 629, 629, 629, 629, 629, 630, 630, 630, 631, ]
+( 0, 14 ) [630, 629, 629, 629, 629, 629, 629, 629, 629, 629, 630, 630, 630, 630, 631, 631, ]
+( 0, 15 ) [630, 630, 630, 630, 629, 629, 629, 629, 630, 630, 630, 630, 630, 631, 631, 632, ]
+
+ ==== (CG) Slave generates (obj:5354.37) with x = -1.75236 ==== 
+( 0, 0 ) [627, 627, 627, 627, 628, 628, 628, 628, 629, 629, 630, 630, 630, 631, 632, 632, ]
+( 0, 1 ) [627, 627, 627, 627, 628, 628, 628, 628, 629, 629, 630, 630, 631, 631, 632, 632, ]
+( 0, 2 ) [627, 627, 627, 628, 628, 628, 628, 628, 629, 629, 630, 630, 631, 631, 632, 632, ]
+( 0, 3 ) [627, 627, 628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, ]
+( 0, 4 ) [628, 628, 628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, ]
+( 0, 5 ) [628, 628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 632, 633, ]
+( 0, 6 ) [628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 630, 631, 631, 632, 632, 633, ]
+( 0, 7 ) [628, 628, 628, 629, 629, 629, 629, 629, 630, 630, 631, 631, 632, 632, 633, 633, ]
+( 0, 8 ) [629, 629, 629, 629, 629, 629, 630, 630, 630, 631, 631, 631, 632, 633, 633, 634, ]
+( 0, 9 ) [629, 629, 629, 629, 629, 630, 630, 630, 631, 631, 631, 632, 632, 633, 634, 634, ]
+( 0, 10 ) [630, 630, 630, 630, 630, 630, 630, 631, 631, 631, 632, 632, 633, 633, 634, 635, ]
+( 0, 11 ) [630, 630, 630, 630, 630, 631, 631, 631, 631, 632, 632, 633, 633, 634, 634, 635, ]
+( 0, 12 ) [630, 631, 631, 631, 631, 631, 631, 632, 632, 632, 633, 633, 634, 634, 635, 636, ]
+( 0, 13 ) [631, 631, 631, 631, 631, 632, 632, 632, 633, 633, 633, 634, 634, 635, 635, 636, ]
+( 0, 14 ) [632, 632, 632, 632, 632, 632, 632, 633, 633, 634, 634, 634, 635, 635, 636, 637, ]
+( 0, 15 ) [632, 632, 632, 633, 633, 633, 633, 633, 634, 634, 635, 635, 636, 636, 637, 637, ]
+
+ ==== (CG) Slave generates (obj:5354.37) with x = -1.75236 ==== 
+( 0, 0 ) [627, 627, 627, 627, 628, 628, 628, 628, 629, 629, 630, 630, 630, 631, 632, 632, ]
+( 0, 1 ) [627, 627, 627, 627, 628, 628, 628, 628, 629, 629, 630, 630, 631, 631, 632, 632, ]
+( 0, 2 ) [627, 627, 627, 628, 628, 628, 628, 628, 629, 629, 630, 630, 631, 631, 632, 632, ]
+( 0, 3 ) [627, 627, 628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, ]
+( 0, 4 ) [628, 628, 628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, ]
+( 0, 5 ) [628, 628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 632, 633, ]
+( 0, 6 ) [628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 630, 631, 631, 632, 632, 633, ]
+( 0, 7 ) [628, 628, 628, 629, 629, 629, 629, 629, 630, 630, 631, 631, 632, 632, 633, 633, ]
+( 0, 8 ) [629, 629, 629, 629, 629, 629, 630, 630, 630, 631, 631, 631, 632, 633, 633, 634, ]
+( 0, 9 ) [629, 629, 629, 629, 629, 630, 630, 630, 631, 631, 631, 632, 632, 633, 634, 634, ]
+( 0, 10 ) [630, 630, 630, 630, 630, 630, 630, 631, 631, 631, 632, 632, 633, 633, 634, 635, ]
+( 0, 11 ) [630, 630, 630, 630, 630, 631, 631, 631, 631, 632, 632, 633, 633, 634, 634, 635, ]
+( 0, 12 ) [630, 631, 631, 631, 631, 631, 631, 632, 632, 632, 633, 633, 634, 634, 635, 636, ]
+( 0, 13 ) [631, 631, 631, 631, 631, 632, 632, 632, 633, 633, 633, 634, 634, 635, 635, 636, ]
+( 0, 14 ) [632, 632, 632, 632, 632, 632, 632, 633, 633, 634, 634, 634, 635, 635, 636, 637, ]
+( 0, 15 ) [632, 632, 632, 633, 633, 633, 633, 633, 634, 634, 635, 635, 636, 636, 637, 637, ]
+
+ ==== (CG) Running Master, iteration 1 ==== 
+Optimize a model with 142592 rows, 285190 columns and 300544 nonzeros
+Coefficient statistics:
+  Matrix range     [5e-02, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [7e-05, 1e+02]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.7905413e+05   0.000000e+00   7.492487e+03      0s
+     606    1.7876899e+05   0.000000e+00   0.000000e+00      1s
+
+Solved in 606 iterations and 1.09 seconds
+Optimal objective  1.787689858e+05
+ ==== (CG) Master Objective : 178768.985755 ==== 
+ ==== (CG) Running Slave, iteration 2 ==== 
+ ==== Current Pool-statistics :0/6 old-slave-constraints separated master and actual size :0 ====
+ ==== (Output of slave 1) ====
+MIP start 19 did not produce a new incumbent solution
+MIP start 20 did not produce a new incumbent solution
+MIP start 21 did not produce a new incumbent solution
+MIP start 22 did not produce a new incumbent solution
+MIP start 23 did not produce a new incumbent solution
+MIP start 24 did not produce a new incumbent solution
+MIP start 25 did not produce a new incumbent solution
+MIP start 26 did not produce a new incumbent solution
+MIP start 27 did not produce a new incumbent solution
+MIP start 28 did not produce a new incumbent solution
+MIP start 29 did not produce a new incumbent solution
+MIP start 30 did not produce a new incumbent solution
+MIP start 31 did not produce a new incumbent solution
+MIP start 32 did not produce a new incumbent solution
+MIP start 33 did not produce a new incumbent solution
+MIP start 34 did not produce a new incumbent solution
+MIP start 35 did not produce a new incumbent solution
+MIP start 36 did not produce a new incumbent solution
+MIP start 37 did not produce a new incumbent solution
+MIP start 38 did not produce a new incumbent solution
+MIP start 39 did not produce a new incumbent solution
+MIP start 40 did not produce a new incumbent solution
+MIP start 41 did not produce a new incumbent solution
+MIP start 42 did not produce a new incumbent solution
+MIP start 43 did not produce a new incumbent solution
+MIP start 44 did not produce a new incumbent solution
+MIP start 45 did not produce a new incumbent solution
+MIP start 46 did not produce a new incumbent solution
+MIP start 47 did not produce a new incumbent solution
+MIP start 48 did not produce a new incumbent solution
+MIP start 49 did not produce a new incumbent solution
+MIP start 50 did not produce a new incumbent solution
+MIP start 51 did not produce a new incumbent solution
+MIP start 52 did not produce a new incumbent solution
+MIP start 53 did not produce a new incumbent solution
+MIP start 54 did not produce a new incumbent solution
+MIP start 55 did not produce a new incumbent solution
+MIP start 56 did not produce a new incumbent solution
+ ==== (Output of slave 2) ====
+Optimize a model with 577 rows, 75905 columns and 245793 nonzeros
+ ==== (Output of slave 1) ====
+MIP start 57 did not produce a new incumbent solution
+MIP start 58 did not produce a new incumbent solution
+MIP start 59 did not produce a new incumbent solution
+MIP start 60 did not produce a new incumbent solution
+MIP start 61 did not produce a new incumbent solution
+MIP start 62 did not produce a new incumbent solution
+MIP start 63 did not produce a new incumbent solution
+MIP start 64 did not produce a new incumbent solution
+MIP start 65 did not produce a new incumbent solution
+MIP start 66 did not produce a new incumbent solution
+MIP start 67 did not produce a new incumbent solution
+MIP start 68 did not produce a new incumbent solution
+MIP start 69 did not produce a new incumbent solution
+MIP start 70 did not produce a new incumbent solution
+MIP start 71 did not produce a new incumbent solution
+MIP start 72 did not produce a new incumbent solution
+MIP start 73 did not produce a new incumbent solution
+MIP start 74 did not produce a new incumbent solution
+MIP start 75 did not produce a new incumbent solution
+MIP start 76 produced solution with objective 103298 (4.42s)
+Loaded MIP start 76 with objective 103298
+MIP start 77 did not produce a new incumbent solution
+MIP start 78 did not produce a new incumbent solution
+MIP start 79 did not produce a new incumbent solution
+MIP start 80 did not produce a new incumbent solution
+MIP start 81 did not produce a new incumbent solution
+MIP start 82 did not produce a new incumbent solution
+MIP start 83 did not produce a new incumbent solution
+MIP start 84 did not produce a new incumbent solution
+MIP start 85 did not produce a new incumbent solution
+MIP start 86 did not produce a new incumbent solution
+MIP start 87 did not produce a new incumbent solution
+MIP start 88 did not produce a new incumbent solution
+ ==== (Output of slave 2) ====
+Variable types: 153 continuous, 75752 integer (75752 binary)
+
+MIP start 0 produced solution with objective 5865.35 (0.09s)
+Loaded MIP start 0 with objective 5865.35
+MIP start 1 produced solution with objective 73788.3 (0.17s)
+Loaded MIP start 1 with objective 73788.3
+MIP start 2 did not produce a new incumbent solution
+MIP start 3 did not produce a new incumbent solution
+MIP start 4 did not produce a new incumbent solution
+MIP start 5 did not produce a new incumbent solution
+MIP start 6 did not produce a new incumbent solution
+MIP start 7 did not produce a new incumbent solution
+MIP start 8 did not produce a new incumbent solution
+MIP start 9 did not produce a new incumbent solution
+MIP start 10 did not produce a new incumbent solution
+MIP start 11 did not produce a new incumbent solution
+MIP start 12 did not produce a new incumbent solution
+MIP start 13 did not produce a new incumbent solution
+MIP start 14 did not produce a new incumbent solution
+MIP start 15 did not produce a new incumbent solution
+MIP start 16 did not produce a new incumbent solution
+MIP start 17 did not produce a new incumbent solution
+MIP start 18 did not produce a new incumbent solution
+MIP start 19 did not produce a new incumbent solution
+MIP start 20 did not produce a new incumbent solution
+MIP start 21 did not produce a new incumbent solution
+MIP start 22 did not produce a new incumbent solution
+MIP start 23 did not produce a new incumbent solution
+MIP start 24 did not produce a new incumbent solution
+MIP start 25 did not produce a new incumbent solution
+MIP start 26 did not produce a new incumbent solution
+MIP start 27 did not produce a new incumbent solution
+MIP start 28 did not produce a new incumbent solution
+MIP start 29 did not produce a new incumbent solution
+MIP start 30 did not produce a new incumbent solution
+ ==== (CG) Slave generates (obj:103298) with x = 56.5259 ==== 
+( 0, 0 ) [121, 119, 118, 117, 116, 115, 115, 114, 114, 115, 115, 116, 117, 118, 119, 121, ]
+( 0, 1 ) [119, 118, 117, 115, 114, 114, 113, 113, 113, 113, 114, 114, 115, 117, 118, 119, ]
+( 0, 2 ) [118, 117, 115, 114, 113, 112, 112, 112, 112, 112, 112, 113, 114, 115, 117, 118, ]
+( 0, 3 ) [117, 115, 114, 113, 112, 111, 111, 110, 110, 111, 111, 112, 113, 114, 115, 117, ]
+( 0, 4 ) [116, 114, 113, 112, 111, 110, 110, 110, 110, 110, 110, 111, 112, 113, 114, 116, ]
+( 0, 5 ) [115, 114, 112, 111, 110, 109, 109, 109, 109, 109, 109, 110, 111, 112, 114, 115, ]
+( 0, 6 ) [115, 113, 112, 111, 110, 109, 108, 108, 108, 108, 109, 110, 111, 112, 113, 115, ]
+( 0, 7 ) [114, 113, 112, 110, 110, 109, 108, 108, 108, 108, 109, 110, 111, 112, 113, 115, ]
+( 0, 8 ) [114, 113, 112, 110, 110, 109, 108, 108, 108, 108, 109, 110, 110, 112, 113, 114, ]
+( 0, 9 ) [115, 113, 112, 111, 110, 109, 108, 108, 108, 108, 109, 110, 111, 112, 113, 115, ]
+( 0, 10 ) [115, 114, 112, 111, 110, 109, 109, 109, 109, 109, 109, 110, 111, 112, 114, 115, ]
+( 0, 11 ) [116, 114, 113, 112, 111, 110, 110, 110, 110, 110, 110, 111, 112, 113, 115, 116, ]
+( 0, 12 ) [117, 115, 114, 113, 112, 111, 111, 111, 110, 111, 111, 112, 113, 114, 116, 117, ]
+( 0, 13 ) [118, 117, 115, 114, 113, 112, 112, 112, 112, 112, 112, 113, 114, 115, 117, 118, ]
+( 0, 14 ) [119, 118, 117, 115, 114, 114, 113, 113, 113, 113, 114, 115, 116, 117, 118, 119, ]
+( 0, 15 ) [121, 119, 118, 117, 116, 115, 115, 115, 114, 115, 115, 116, 117, 118, 119, 121, ]
+
+ ==== (CG) Slave generates (obj:103298) with x = 56.5259 ==== 
+( 0, 0 ) [121, 119, 118, 117, 116, 115, 115, 114, 114, 115, 115, 116, 117, 118, 119, 121, ]
+( 0, 1 ) [119, 118, 117, 115, 114, 114, 113, 113, 113, 113, 114, 114, 115, 117, 118, 119, ]
+( 0, 2 ) [118, 117, 115, 114, 113, 112, 112, 112, 112, 112, 112, 113, 114, 115, 117, 118, ]
+( 0, 3 ) [117, 115, 114, 113, 112, 111, 111, 110, 110, 111, 111, 112, 113, 114, 115, 117, ]
+( 0, 4 ) [116, 114, 113, 112, 111, 110, 110, 110, 110, 110, 110, 111, 112, 113, 114, 116, ]
+( 0, 5 ) [115, 114, 112, 111, 110, 109, 109, 109, 109, 109, 109, 110, 111, 112, 114, 115, ]
+( 0, 6 ) [115, 113, 112, 111, 110, 109, 108, 108, 108, 108, 109, 110, 111, 112, 113, 115, ]
+( 0, 7 ) [114, 113, 112, 110, 110, 109, 108, 108, 108, 108, 109, 110, 111, 112, 113, 115, ]
+( 0, 8 ) [114, 113, 112, 110, 110, 109, 108, 108, 108, 108, 109, 110, 110, 112, 113, 114, ]
+( 0, 9 ) [115, 113, 112, 111, 110, 109, 108, 108, 108, 108, 109, 110, 111, 112, 113, 115, ]
+( 0, 10 ) [115, 114, 112, 111, 110, 109, 109, 109, 109, 109, 109, 110, 111, 112, 114, 115, ]
+( 0, 11 ) [116, 114, 113, 112, 111, 110, 110, 110, 110, 110, 110, 111, 112, 113, 115, 116, ]
+( 0, 12 ) [117, 115, 114, 113, 112, 111, 111, 111, 110, 111, 111, 112, 113, 114, 116, 117, ]
+( 0, 13 ) [118, 117, 115, 114, 113, 112, 112, 112, 112, 112, 112, 113, 114, 115, 117, 118, ]
+( 0, 14 ) [119, 118, 117, 115, 114, 114, 113, 113, 113, 113, 114, 115, 116, 117, 118, 119, ]
+( 0, 15 ) [121, 119, 118, 117, 116, 115, 115, 115, 114, 115, 115, 116, 117, 118, 119, 121, ]
+
+ ==== (CG) Slave generates (obj:73788.3) with x = 60.4724 ==== 
+( 0, 0 ) [622, 622, 621, 621, 621, 620, 620, 620, 621, 620, 620, 620, 620, 621, 621, 622, ]
+( 0, 1 ) [622, 621, 620, 620, 620, 620, 620, 620, 620, 620, 620, 620, 620, 620, 621, 621, ]
+( 0, 2 ) [621, 620, 620, 620, 620, 619, 619, 620, 620, 620, 620, 619, 620, 620, 620, 620, ]
+( 0, 3 ) [621, 620, 620, 620, 620, 619, 620, 619, 620, 619, 619, 619, 619, 620, 620, 620, ]
+( 0, 4 ) [621, 620, 620, 620, 620, 619, 619, 619, 620, 619, 619, 619, 619, 620, 620, 621, ]
+( 0, 5 ) [620, 620, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 620, 620, ]
+( 0, 6 ) [620, 620, 619, 620, 619, 619, 619, 619, 619, 619, 619, 619, 619, 620, 620, 620, ]
+( 0, 7 ) [620, 620, 620, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 620, 620, ]
+( 0, 8 ) [621, 620, 620, 620, 620, 619, 619, 619, 619, 619, 619, 619, 619, 620, 620, 620, ]
+( 0, 9 ) [620, 620, 620, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 620, 620, 620, ]
+( 0, 10 ) [620, 620, 620, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 620, ]
+( 0, 11 ) [620, 620, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 620, ]
+( 0, 12 ) [620, 620, 620, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 620, 620, ]
+( 0, 13 ) [621, 620, 620, 620, 620, 619, 620, 619, 620, 620, 619, 619, 619, 620, 620, 620, ]
+( 0, 14 ) [621, 621, 620, 620, 620, 620, 620, 620, 620, 620, 619, 619, 620, 620, 620, 620, ]
+( 0, 15 ) [622, 621, 620, 620, 621, 620, 620, 620, 620, 620, 620, 620, 620, 620, 620, 621, ]
+
+ ==== (CG) Slave generates (obj:73788.3) with x = 60.4724 ==== 
+( 0, 0 ) [622, 622, 621, 621, 621, 620, 620, 620, 621, 620, 620, 620, 620, 621, 621, 622, ]
+( 0, 1 ) [622, 621, 620, 620, 620, 620, 620, 620, 620, 620, 620, 620, 620, 620, 621, 621, ]
+( 0, 2 ) [621, 620, 620, 620, 620, 619, 619, 620, 620, 620, 620, 619, 620, 620, 620, 620, ]
+( 0, 3 ) [621, 620, 620, 620, 620, 619, 620, 619, 620, 619, 619, 619, 619, 620, 620, 620, ]
+( 0, 4 ) [621, 620, 620, 620, 620, 619, 619, 619, 620, 619, 619, 619, 619, 620, 620, 621, ]
+( 0, 5 ) [620, 620, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 620, 620, ]
+( 0, 6 ) [620, 620, 619, 620, 619, 619, 619, 619, 619, 619, 619, 619, 619, 620, 620, 620, ]
+( 0, 7 ) [620, 620, 620, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 620, 620, ]
+( 0, 8 ) [621, 620, 620, 620, 620, 619, 619, 619, 619, 619, 619, 619, 619, 620, 620, 620, ]
+( 0, 9 ) [620, 620, 620, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 620, 620, 620, ]
+( 0, 10 ) [620, 620, 620, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 620, ]
+( 0, 11 ) [620, 620, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 620, ]
+( 0, 12 ) [620, 620, 620, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 619, 620, 620, ]
+( 0, 13 ) [621, 620, 620, 620, 620, 619, 620, 619, 620, 620, 619, 619, 619, 620, 620, 620, ]
+( 0, 14 ) [621, 621, 620, 620, 620, 620, 620, 620, 620, 620, 619, 619, 620, 620, 620, 620, ]
+( 0, 15 ) [622, 621, 620, 620, 621, 620, 620, 620, 620, 620, 620, 620, 620, 620, 620, 621, ]
+
+ ==== (CG) Slave generates (obj:5865.35) with x = 96.2818 ==== 
+( 0, 0 ) [634, 634, 633, 632, 632, 632, 631, 631, 631, 630, 630, 630, 630, 630, 630, 630, ]
+( 0, 1 ) [634, 633, 632, 632, 631, 631, 631, 630, 630, 630, 630, 630, 630, 629, 630, 630, ]
+( 0, 2 ) [633, 632, 632, 631, 631, 631, 630, 630, 630, 629, 629, 629, 629, 629, 629, 629, ]
+( 0, 3 ) [632, 632, 631, 631, 630, 630, 630, 629, 629, 629, 629, 629, 629, 628, 628, 629, ]
+( 0, 4 ) [632, 631, 631, 630, 630, 630, 629, 629, 629, 628, 628, 628, 628, 628, 628, 628, ]
+( 0, 5 ) [632, 631, 631, 630, 630, 629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, ]
+( 0, 6 ) [631, 631, 630, 630, 629, 629, 628, 628, 628, 628, 628, 627, 627, 627, 627, 627, ]
+( 0, 7 ) [631, 630, 630, 629, 629, 629, 628, 628, 628, 627, 627, 627, 627, 627, 627, 627, ]
+( 0, 8 ) [631, 630, 630, 629, 629, 628, 628, 628, 627, 627, 627, 627, 627, 627, 627, 627, ]
+( 0, 9 ) [630, 630, 629, 629, 628, 628, 628, 627, 627, 627, 627, 627, 627, 626, 626, 627, ]
+( 0, 10 ) [630, 630, 629, 629, 628, 628, 628, 627, 627, 627, 627, 626, 626, 626, 626, 626, ]
+( 0, 11 ) [630, 630, 629, 629, 628, 628, 627, 627, 627, 627, 626, 626, 626, 626, 626, 626, ]
+( 0, 12 ) [630, 630, 629, 629, 628, 628, 627, 627, 627, 627, 626, 626, 626, 626, 626, 626, ]
+( 0, 13 ) [630, 629, 629, 628, 628, 628, 627, 627, 627, 626, 626, 626, 626, 626, 626, 626, ]
+( 0, 14 ) [630, 630, 629, 628, 628, 628, 627, 627, 627, 626, 626, 626, 626, 626, 626, 626, ]
+( 0, 15 ) [630, 630, 629, 629, 628, 628, 627, 627, 627, 627, 626, 626, 626, 626, 626, 626, ]
+
+ ==== (CG) Slave generates (obj:5865.35) with x = 96.2818 ==== 
+( 0, 0 ) [634, 634, 633, 632, 632, 632, 631, 631, 631, 630, 630, 630, 630, 630, 630, 630, ]
+( 0, 1 ) [634, 633, 632, 632, 631, 631, 631, 630, 630, 630, 630, 630, 630, 629, 630, 630, ]
+( 0, 2 ) [633, 632, 632, 631, 631, 631, 630, 630, 630, 629, 629, 629, 629, 629, 629, 629, ]
+( 0, 3 ) [632, 632, 631, 631, 630, 630, 630, 629, 629, 629, 629, 629, 629, 628, 628, 629, ]
+( 0, 4 ) [632, 631, 631, 630, 630, 630, 629, 629, 629, 628, 628, 628, 628, 628, 628, 628, ]
+( 0, 5 ) [632, 631, 631, 630, 630, 629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, ]
+( 0, 6 ) [631, 631, 630, 630, 629, 629, 628, 628, 628, 628, 628, 627, 627, 627, 627, 627, ]
+( 0, 7 ) [631, 630, 630, 629, 629, 629, 628, 628, 628, 627, 627, 627, 627, 627, 627, 627, ]
+( 0, 8 ) [631, 630, 630, 629, 629, 628, 628, 628, 627, 627, 627, 627, 627, 627, 627, 627, ]
+( 0, 9 ) [630, 630, 629, 629, 628, 628, 628, 627, 627, 627, 627, 627, 627, 626, 626, 627, ]
+( 0, 10 ) [630, 630, 629, 629, 628, 628, 628, 627, 627, 627, 627, 626, 626, 626, 626, 626, ]
+( 0, 11 ) [630, 630, 629, 629, 628, 628, 627, 627, 627, 627, 626, 626, 626, 626, 626, 626, ]
+( 0, 12 ) [630, 630, 629, 629, 628, 628, 627, 627, 627, 627, 626, 626, 626, 626, 626, 626, ]
+( 0, 13 ) [630, 629, 629, 628, 628, 628, 627, 627, 627, 626, 626, 626, 626, 626, 626, 626, ]
+( 0, 14 ) [630, 630, 629, 628, 628, 628, 627, 627, 627, 626, 626, 626, 626, 626, 626, 626, ]
+( 0, 15 ) [630, 630, 629, 629, 628, 628, 627, 627, 627, 627, 626, 626, 626, 626, 626, 626, ]
+
+ ==== (CG) Running Master, iteration 2 ==== 
+Optimize a model with 142592 rows, 285196 columns and 315904 nonzeros
+Coefficient statistics:
+  Matrix range     [5e-02, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [7e-05, 1e+02]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.7876899e+05   0.000000e+00   2.287291e+04      0s
+ ==== (Output of slave 1) ====
+MIP start 89 did not produce a new incumbent solution
+MIP start 90 did not produce a new incumbent solution
+MIP start 91 did not produce a new incumbent solution
+MIP start 92 did not produce a new incumbent solution
+MIP start 93 did not produce a new incumbent solution
+MIP start 94 did not produce a new incumbent solution
+MIP start 95 did not produce a new incumbent solution
+MIP start 96 did not produce a new incumbent solution
+MIP start 97 did not produce a new incumbent solution
+MIP start 98 did not produce a new incumbent solution
+MIP start 99 did not produce a new incumbent solution
+MIP start 100 did not produce a new incumbent solution
+MIP start 101 did not produce a new incumbent solution
+MIP start 102 did not produce a new incumbent solution
+MIP start 103 did not produce a new incumbent solution
+MIP start 104 did not produce a new incumbent solution
+MIP start 105 did not produce a new incumbent solution
+MIP start 106 did not produce a new incumbent solution
+MIP start 107 did not produce a new incumbent solution
+MIP start 108 did not produce a new incumbent solution
+MIP start 109 did not produce a new incumbent solution
+MIP start 110 did not produce a new incumbent solution
+MIP start 111 did not produce a new incumbent solution
+MIP start 112 did not produce a new incumbent solution
+MIP start 113 did not produce a new incumbent solution
+MIP start 114 did not produce a new incumbent solution
+MIP start 115 did not produce a new incumbent solution
+MIP start 116 did not produce a new incumbent solution
+MIP start 117 did not produce a new incumbent solution
+MIP start 118 did not produce a new incumbent solution
+MIP start 119 did not produce a new incumbent solution
+MIP start 120 did not produce a new incumbent solution
+MIP start 121 did not produce a new incumbent solution
+MIP start 122 did not produce a new incumbent solution
+MIP start 123 did not produce a new incumbent solution
+MIP start 124 did not produce a new incumbent solution
+MIP start 125 did not produce a new incumbent solution
+MIP start 126 did not produce a new incumbent solution
+MIP start 127 did not produce a new incumbent solution
+MIP start 128 did not produce a new incumbent solution
+MIP start 129 did not produce a new incumbent solution
+MIP start 130 did not produce a new incumbent solution
+MIP start 131 did not produce a new incumbent solution
+MIP start 132 did not produce a new incumbent solution
+MIP start 133 did not produce a new incumbent solution
+MIP start 134 did not produce a new incumbent solution
+MIP start 135 did not produce a new incumbent solution
+MIP start 136 did not produce a new incumbent solution
+MIP start 137 did not produce a new incumbent solution
+MIP start 138 did not produce a new incumbent solution
+MIP start 139 did not produce a new incumbent solution
+MIP start 140 did not produce a new incumbent solution
+MIP start 141 did not produce a new incumbent solution
+MIP start 142 did not produce a new incumbent solution
+MIP start 143 did not produce a new incumbent solution
+MIP start 144 did not produce a new incumbent solution
+MIP start 145 did not produce a new incumbent solution
+MIP start 146 did not produce a new incumbent solution
+MIP start 147 did not produce a new incumbent solution
+MIP start 148 did not produce a new incumbent solution
+MIP start 149 did not produce a new incumbent solution
+ ==== (Output of slave 2) ====
+MIP start 31 did not produce a new incumbent solution
+MIP start 32 did not produce a new incumbent solution
+MIP start 33 did not produce a new incumbent solution
+MIP start 34 did not produce a new incumbent solution
+MIP start 35 did not produce a new incumbent solution
+MIP start 36 did not produce a new incumbent solution
+MIP start 37 did not produce a new incumbent solution
+MIP start 38 did not produce a new incumbent solution
+MIP start 39 did not produce a new incumbent solution
+MIP start 40 did not produce a new incumbent solution
+MIP start 41 did not produce a new incumbent solution
+MIP start 42 did not produce a new incumbent solution
+MIP start 43 did not produce a new incumbent solution
+MIP start 44 did not produce a new incumbent solution
+MIP start 45 did not produce a new incumbent solution
+MIP start 46 did not produce a new incumbent solution
+MIP start 47 did not produce a new incumbent solution
+MIP start 48 did not produce a new incumbent solution
+MIP start 49 did not produce a new incumbent solution
+MIP start 50 did not produce a new incumbent solution
+MIP start 51 did not produce a new incumbent solution
+MIP start 52 did not produce a new incumbent solution
+MIP start 53 did not produce a new incumbent solution
+MIP start 54 did not produce a new incumbent solution
+MIP start 55 did not produce a new incumbent solution
+MIP start 56 did not produce a new incumbent solution
+MIP start 57 did not produce a new incumbent solution
+MIP start 58 did not produce a new incumbent solution
+MIP start 59 did not produce a new incumbent solution
+MIP start 60 did not produce a new incumbent solution
+MIP start 61 did not produce a new incumbent solution
+MIP start 62 did not produce a new incumbent solution
+MIP start 63 did not produce a new incumbent solution
+MIP start 64 did not produce a new incumbent solution
+MIP start 65 did not produce a new incumbent solution
+MIP start 66 did not produce a new incumbent solution
+MIP start 67 did not produce a new incumbent solution
+MIP start 68 did not produce a new incumbent solution
+MIP start 69 did not produce a new incumbent solution
+MIP start 70 did not produce a new incumbent solution
+    2340    1.3769570e+05   0.000000e+00   3.129511e+03      6s
+    2639    1.3645930e+05   0.000000e+00   0.000000e+00      7s
+
+Solved in 2639 iterations and 7.06 seconds
+Optimal objective  1.364593009e+05
+ ==== (CG) Master Objective : 136459.300913 ==== 
+ ==== (CG) Running Slave, iteration 3 ==== 
+ ==== Current Pool-statistics :2/12 old-slave-constraints separated master and actual size :0 ====
+ ==== (Output of slave 1) ====
+MIP start 150 did not produce a new incumbent solution
+MIP start 151 did not produce a new incumbent solution
+MIP start 152 did not produce a new incumbent solution
+MIP start 153 did not produce a new incumbent solution
+MIP start 154 did not produce a new incumbent solution
+MIP start 155 did not produce a new incumbent solution
+MIP start 156 did not produce a new incumbent solution
+MIP start 157 did not produce a new incumbent solution
+MIP start 158 did not produce a new incumbent solution
+MIP start 159 did not produce a new incumbent solution
+MIP start 160 did not produce a new incumbent solution
+MIP start 161 did not produce a new incumbent solution
+MIP start 162 did not produce a new incumbent solution
+MIP start 163 did not produce a new incumbent solution
+MIP start 164 did not produce a new incumbent solution
+MIP start 165 did not produce a new incumbent solution
+MIP start 166 did not produce a new incumbent solution
+MIP start 167 did not produce a new incumbent solution
+MIP start 168 did not produce a new incumbent solution
+MIP start 169 did not produce a new incumbent solution
+MIP start 170 did not produce a new incumbent solution
+MIP start 171 did not produce a new incumbent solution
+MIP start 172 did not produce a new incumbent solution
+MIP start 173 did not produce a new incumbent solution
+MIP start 174 did not produce a new incumbent solution
+MIP start 175 did not produce a new incumbent solution
+MIP start 176 did not produce a new incumbent solution
+MIP start 177 did not produce a new incumbent solution
+MIP start 178 did not produce a new incumbent solution
+MIP start 179 did not produce a new incumbent solution
+MIP start 180 did not produce a new incumbent solution
+MIP start 181 did not produce a new incumbent solution
+MIP start 182 did not produce a new incumbent solution
+MIP start 183 did not produce a new incumbent solution
+MIP start 184 did not produce a new incumbent solution
+MIP start 185 did not produce a new incumbent solution
+MIP start 186 did not produce a new incumbent solution
+MIP start 187 did not produce a new incumbent solution
+MIP start 188 did not produce a new incumbent solution
+MIP start 189 did not produce a new incumbent solution
+MIP start 190 did not produce a new incumbent solution
+MIP start 191 did not produce a new incumbent solution
+MIP start 192 did not produce a new incumbent solution
+MIP start 193 did not produce a new incumbent solution
+MIP start 194 did not produce a new incumbent solution
+MIP start 195 did not produce a new incumbent solution
+MIP start 196 did not produce a new incumbent solution
+MIP start 197 did not produce a new incumbent solution
+ ==== (Output of slave 2) ====
+MIP start 71 did not produce a new incumbent solution
+MIP start 72 did not produce a new incumbent solution
+MIP start 73 did not produce a new incumbent solution
+MIP start 74 did not produce a new incumbent solution
+MIP start 75 did not produce a new incumbent solution
+MIP start 76 did not produce a new incumbent solution
+MIP start 77 did not produce a new incumbent solution
+MIP start 78 did not produce a new incumbent solution
+MIP start 79 did not produce a new incumbent solution
+MIP start 80 did not produce a new incumbent solution
+MIP start 81 did not produce a new incumbent solution
+MIP start 82 did not produce a new incumbent solution
+MIP start 83 did not produce a new incumbent solution
+MIP start 84 did not produce a new incumbent solution
+MIP start 85 did not produce a new incumbent solution
+MIP start 86 did not produce a new incumbent solution
+MIP start 87 did not produce a new incumbent solution
+MIP start 88 did not produce a new incumbent solution
+MIP start 89 did not produce a new incumbent solution
+MIP start 90 did not produce a new incumbent solution
+MIP start 91 did not produce a new incumbent solution
+MIP start 92 did not produce a new incumbent solution
+MIP start 93 did not produce a new incumbent solution
+MIP start 94 did not produce a new incumbent solution
+MIP start 95 did not produce a new incumbent solution
+MIP start 96 did not produce a new incumbent solution
+MIP start 97 did not produce a new incumbent solution
+MIP start 98 did not produce a new incumbent solution
+MIP start 99 did not produce a new incumbent solution
+MIP start 100 did not produce a new incumbent solution
+MIP start 101 did not produce a new incumbent solution
+MIP start 102 did not produce a new incumbent solution
+ ==== (Output of slave 3) ====
+Optimize a model with 577 rows, 75905 columns and 245793 nonzeros
+ ==== (Output of slave 1) ====
+MIP start 198 did not produce a new incumbent solution
+MIP start 199 did not produce a new incumbent solution
+MIP start 200 did not produce a new incumbent solution
+MIP start 201 did not produce a new incumbent solution
+MIP start 202 did not produce a new incumbent solution
+MIP start 203 did not produce a new incumbent solution
+MIP start 204 did not produce a new incumbent solution
+MIP start 205 did not produce a new incumbent solution
+MIP start 206 did not produce a new incumbent solution
+MIP start 207 did not produce a new incumbent solution
+MIP start 208 did not produce a new incumbent solution
+MIP start 209 did not produce a new incumbent solution
+MIP start 210 did not produce a new incumbent solution
+MIP start 211 did not produce a new incumbent solution
+MIP start 212 did not produce a new incumbent solution
+MIP start 213 did not produce a new incumbent solution
+MIP start 214 did not produce a new incumbent solution
+MIP start 215 did not produce a new incumbent solution
+MIP start 216 did not produce a new incumbent solution
+MIP start 217 did not produce a new incumbent solution
+ ==== (Output of slave 2) ====
+MIP start 103 did not produce a new incumbent solution
+MIP start 104 did not produce a new incumbent solution
+MIP start 105 did not produce a new incumbent solution
+MIP start 106 did not produce a new incumbent solution
+MIP start 107 did not produce a new incumbent solution
+MIP start 108 did not produce a new incumbent solution
+MIP start 109 did not produce a new incumbent solution
+MIP start 110 did not produce a new incumbent solution
+MIP start 111 did not produce a new incumbent solution
+MIP start 112 did not produce a new incumbent solution
+MIP start 113 did not produce a new incumbent solution
+MIP start 114 did not produce a new incumbent solution
+MIP start 115 did not produce a new incumbent solution
+MIP start 116 did not produce a new incumbent solution
+MIP start 117 did not produce a new incumbent solution
+MIP start 118 did not produce a new incumbent solution
+MIP start 119 did not produce a new incumbent solution
+MIP start 120 did not produce a new incumbent solution
+MIP start 121 did not produce a new incumbent solution
+MIP start 122 did not produce a new incumbent solution
+MIP start 123 produced solution with objective 85157 (10.55s)
+Loaded MIP start 123 with objective 85157
+MIP start 124 did not produce a new incumbent solution
+MIP start 125 did not produce a new incumbent solution
+MIP start 126 did not produce a new incumbent solution
+MIP start 127 did not produce a new incumbent solution
+MIP start 128 did not produce a new incumbent solution
+MIP start 129 did not produce a new incumbent solution
+MIP start 130 did not produce a new incumbent solution
+MIP start 131 did not produce a new incumbent solution
+MIP start 132 did not produce a new incumbent solution
+MIP start 133 did not produce a new incumbent solution
+MIP start 134 did not produce a new incumbent solution
+ ==== (Output of slave 3) ====
+Variable types: 153 continuous, 75752 integer (75752 binary)
+
+MIP start 0 produced solution with objective 2402.8 (0.13s)
+Loaded MIP start 0 with objective 2402.8
+MIP start 1 did not produce a new incumbent solution
+MIP start 2 did not produce a new incumbent solution
+MIP start 3 produced solution with objective 7036.16 (0.43s)
+Loaded MIP start 3 with objective 7036.16
+MIP start 4 did not produce a new incumbent solution
+MIP start 5 did not produce a new incumbent solution
+MIP start 6 did not produce a new incumbent solution
+MIP start 7 did not produce a new incumbent solution
+MIP start 8 did not produce a new incumbent solution
+MIP start 9 did not produce a new incumbent solution
+MIP start 10 did not produce a new incumbent solution
+MIP start 11 did not produce a new incumbent solution
+MIP start 12 did not produce a new incumbent solution
+MIP start 13 did not produce a new incumbent solution
+MIP start 14 did not produce a new incumbent solution
+MIP start 15 did not produce a new incumbent solution
+MIP start 16 did not produce a new incumbent solution
+MIP start 17 produced solution with objective 18930.2 (1.83s)
+Loaded MIP start 17 with objective 18930.2
+MIP start 18 did not produce a new incumbent solution
+ ==== (CG) Slave generates (obj:18930.2) with x = 64.917 ==== 
+( 0, 0 ) [143, 141, 140, 139, 138, 137, 135, 135, 135, 135, 135, 135, 136, 137, 138, 139, ]
+( 0, 1 ) [141, 139, 137, 136, 135, 135, 133, 133, 133, 133, 133, 133, 134, 135, 136, 137, ]
+( 0, 2 ) [140, 137, 136, 135, 134, 133, 132, 131, 131, 131, 131, 132, 133, 133, 134, 136, ]
+( 0, 3 ) [139, 136, 135, 134, 133, 132, 131, 131, 131, 131, 130, 131, 131, 132, 133, 135, ]
+( 0, 4 ) [138, 135, 134, 133, 132, 131, 130, 130, 129, 130, 129, 130, 131, 131, 133, 134, ]
+( 0, 5 ) [137, 135, 133, 132, 131, 130, 129, 128, 129, 129, 128, 129, 129, 131, 132, 133, ]
+( 0, 6 ) [135, 133, 132, 131, 130, 129, 128, 127, 128, 127, 127, 128, 128, 130, 130, 132, ]
+( 0, 7 ) [135, 133, 131, 131, 130, 128, 127, 127, 127, 127, 127, 127, 128, 129, 130, 131, ]
+( 0, 8 ) [135, 133, 131, 131, 129, 129, 128, 127, 127, 127, 127, 127, 128, 129, 130, 132, ]
+( 0, 9 ) [135, 133, 131, 131, 130, 129, 127, 127, 127, 127, 127, 127, 128, 129, 130, 131, ]
+( 0, 10 ) [135, 133, 131, 130, 129, 128, 127, 127, 127, 127, 127, 127, 128, 129, 130, 131, ]
+( 0, 11 ) [135, 133, 132, 131, 130, 129, 128, 127, 127, 127, 127, 128, 128, 129, 130, 132, ]
+( 0, 12 ) [136, 134, 133, 131, 131, 129, 128, 128, 128, 128, 128, 128, 129, 130, 131, 132, ]
+( 0, 13 ) [137, 135, 133, 132, 131, 131, 130, 129, 129, 129, 129, 129, 130, 131, 132, 133, ]
+( 0, 14 ) [138, 136, 134, 133, 133, 132, 130, 130, 130, 130, 130, 130, 131, 132, 133, 134, ]
+( 0, 15 ) [139, 137, 136, 135, 134, 133, 132, 131, 132, 131, 131, 132, 132, 133, 134, 136, ]
+
+ ==== (CG) Slave generates (obj:18930.2) with x = 64.917 ==== 
+( 0, 0 ) [143, 141, 140, 139, 138, 137, 135, 135, 135, 135, 135, 135, 136, 137, 138, 139, ]
+( 0, 1 ) [141, 139, 137, 136, 135, 135, 133, 133, 133, 133, 133, 133, 134, 135, 136, 137, ]
+( 0, 2 ) [140, 137, 136, 135, 134, 133, 132, 131, 131, 131, 131, 132, 133, 133, 134, 136, ]
+( 0, 3 ) [139, 136, 135, 134, 133, 132, 131, 131, 131, 131, 130, 131, 131, 132, 133, 135, ]
+( 0, 4 ) [138, 135, 134, 133, 132, 131, 130, 130, 129, 130, 129, 130, 131, 131, 133, 134, ]
+( 0, 5 ) [137, 135, 133, 132, 131, 130, 129, 128, 129, 129, 128, 129, 129, 131, 132, 133, ]
+( 0, 6 ) [135, 133, 132, 131, 130, 129, 128, 127, 128, 127, 127, 128, 128, 130, 130, 132, ]
+( 0, 7 ) [135, 133, 131, 131, 130, 128, 127, 127, 127, 127, 127, 127, 128, 129, 130, 131, ]
+( 0, 8 ) [135, 133, 131, 131, 129, 129, 128, 127, 127, 127, 127, 127, 128, 129, 130, 132, ]
+( 0, 9 ) [135, 133, 131, 131, 130, 129, 127, 127, 127, 127, 127, 127, 128, 129, 130, 131, ]
+( 0, 10 ) [135, 133, 131, 130, 129, 128, 127, 127, 127, 127, 127, 127, 128, 129, 130, 131, ]
+( 0, 11 ) [135, 133, 132, 131, 130, 129, 128, 127, 127, 127, 127, 128, 128, 129, 130, 132, ]
+( 0, 12 ) [136, 134, 133, 131, 131, 129, 128, 128, 128, 128, 128, 128, 129, 130, 131, 132, ]
+( 0, 13 ) [137, 135, 133, 132, 131, 131, 130, 129, 129, 129, 129, 129, 130, 131, 132, 133, ]
+( 0, 14 ) [138, 136, 134, 133, 133, 132, 130, 130, 130, 130, 130, 130, 131, 132, 133, 134, ]
+( 0, 15 ) [139, 137, 136, 135, 134, 133, 132, 131, 132, 131, 131, 132, 132, 133, 134, 136, ]
+
+ ==== (CG) Slave generates (obj:85157) with x = 55.2984 ==== 
+( 0, 0 ) [125, 123, 122, 121, 120, 119, 119, 118, 118, 119, 119, 120, 121, 122, 124, 125, ]
+( 0, 1 ) [123, 122, 121, 119, 119, 117, 118, 117, 117, 118, 118, 118, 120, 121, 122, 124, ]
+( 0, 2 ) [122, 121, 119, 118, 117, 116, 116, 116, 116, 116, 117, 117, 118, 119, 121, 122, ]
+( 0, 3 ) [121, 119, 118, 117, 116, 115, 115, 115, 114, 115, 115, 116, 117, 118, 120, 121, ]
+( 0, 4 ) [120, 119, 117, 116, 115, 114, 114, 113, 114, 114, 114, 115, 117, 117, 119, 120, ]
+( 0, 5 ) [119, 117, 116, 115, 114, 113, 113, 113, 113, 113, 114, 114, 115, 117, 118, 119, ]
+( 0, 6 ) [119, 118, 116, 115, 114, 113, 113, 113, 113, 113, 114, 114, 115, 117, 118, 119, ]
+( 0, 7 ) [118, 117, 116, 115, 113, 113, 113, 112, 112, 113, 113, 113, 115, 116, 118, 119, ]
+( 0, 8 ) [118, 117, 116, 114, 114, 113, 113, 112, 112, 113, 113, 114, 115, 116, 118, 119, ]
+( 0, 9 ) [119, 118, 116, 115, 114, 113, 113, 113, 113, 113, 114, 114, 116, 117, 118, 120, ]
+( 0, 10 ) [119, 118, 117, 115, 114, 114, 114, 113, 113, 114, 114, 115, 116, 117, 119, 120, ]
+( 0, 11 ) [120, 118, 117, 116, 115, 114, 114, 113, 114, 114, 115, 115, 116, 117, 119, 121, ]
+( 0, 12 ) [121, 120, 118, 117, 117, 115, 115, 115, 115, 116, 116, 116, 118, 119, 120, 122, ]
+( 0, 13 ) [122, 121, 119, 118, 117, 117, 117, 116, 116, 117, 117, 117, 119, 120, 122, 123, ]
+( 0, 14 ) [124, 122, 121, 120, 119, 118, 118, 118, 118, 118, 119, 119, 120, 122, 123, 124, ]
+( 0, 15 ) [125, 124, 122, 121, 120, 119, 119, 119, 119, 120, 120, 121, 122, 123, 124, 126, ]
+
+ ==== (CG) Slave generates (obj:85157) with x = 55.2984 ==== 
+( 0, 0 ) [125, 123, 122, 121, 120, 119, 119, 118, 118, 119, 119, 120, 121, 122, 124, 125, ]
+( 0, 1 ) [123, 122, 121, 119, 119, 117, 118, 117, 117, 118, 118, 118, 120, 121, 122, 124, ]
+( 0, 2 ) [122, 121, 119, 118, 117, 116, 116, 116, 116, 116, 117, 117, 118, 119, 121, 122, ]
+( 0, 3 ) [121, 119, 118, 117, 116, 115, 115, 115, 114, 115, 115, 116, 117, 118, 120, 121, ]
+( 0, 4 ) [120, 119, 117, 116, 115, 114, 114, 113, 114, 114, 114, 115, 117, 117, 119, 120, ]
+( 0, 5 ) [119, 117, 116, 115, 114, 113, 113, 113, 113, 113, 114, 114, 115, 117, 118, 119, ]
+( 0, 6 ) [119, 118, 116, 115, 114, 113, 113, 113, 113, 113, 114, 114, 115, 117, 118, 119, ]
+( 0, 7 ) [118, 117, 116, 115, 113, 113, 113, 112, 112, 113, 113, 113, 115, 116, 118, 119, ]
+( 0, 8 ) [118, 117, 116, 114, 114, 113, 113, 112, 112, 113, 113, 114, 115, 116, 118, 119, ]
+( 0, 9 ) [119, 118, 116, 115, 114, 113, 113, 113, 113, 113, 114, 114, 116, 117, 118, 120, ]
+( 0, 10 ) [119, 118, 117, 115, 114, 114, 114, 113, 113, 114, 114, 115, 116, 117, 119, 120, ]
+( 0, 11 ) [120, 118, 117, 116, 115, 114, 114, 113, 114, 114, 115, 115, 116, 117, 119, 121, ]
+( 0, 12 ) [121, 120, 118, 117, 117, 115, 115, 115, 115, 116, 116, 116, 118, 119, 120, 122, ]
+( 0, 13 ) [122, 121, 119, 118, 117, 117, 117, 116, 116, 117, 117, 117, 119, 120, 122, 123, ]
+( 0, 14 ) [124, 122, 121, 120, 119, 118, 118, 118, 118, 118, 119, 119, 120, 122, 123, 124, ]
+( 0, 15 ) [125, 124, 122, 121, 120, 119, 119, 119, 119, 120, 120, 121, 122, 123, 124, 126, ]
+
+ ==== (CG) Slave generates (obj:7036.16) with x = 55.4988 ==== 
+( 0, 0 ) [131, 129, 128, 127, 126, 125, 125, 125, 125, 125, 126, 126, 127, 128, 130, 131, ]
+( 0, 1 ) [129, 128, 127, 125, 125, 124, 123, 123, 123, 123, 124, 125, 126, 127, 128, 130, ]
+( 0, 2 ) [128, 127, 125, 124, 123, 123, 122, 122, 122, 122, 123, 123, 124, 126, 127, 128, ]
+( 0, 3 ) [127, 125, 124, 123, 122, 121, 121, 121, 121, 121, 122, 122, 123, 124, 126, 127, ]
+( 0, 4 ) [126, 125, 123, 122, 121, 121, 120, 120, 120, 120, 121, 121, 122, 123, 125, 126, ]
+( 0, 5 ) [125, 124, 123, 121, 121, 120, 119, 119, 119, 119, 120, 121, 122, 123, 124, 126, ]
+( 0, 6 ) [125, 123, 122, 121, 120, 119, 119, 119, 119, 119, 120, 120, 121, 122, 124, 125, ]
+( 0, 7 ) [125, 123, 122, 121, 120, 119, 119, 118, 119, 119, 119, 120, 121, 122, 123, 125, ]
+( 0, 8 ) [125, 123, 122, 121, 120, 119, 119, 119, 119, 119, 119, 120, 121, 122, 124, 125, ]
+( 0, 9 ) [125, 123, 122, 121, 120, 119, 119, 119, 119, 119, 120, 120, 121, 122, 124, 125, ]
+( 0, 10 ) [126, 124, 123, 122, 121, 120, 120, 119, 119, 120, 120, 121, 122, 123, 124, 126, ]
+( 0, 11 ) [126, 125, 123, 122, 121, 121, 120, 120, 120, 120, 121, 122, 122, 124, 125, 127, ]
+( 0, 12 ) [127, 126, 124, 123, 122, 122, 121, 121, 121, 121, 122, 122, 123, 125, 126, 128, ]
+( 0, 13 ) [128, 127, 126, 124, 123, 123, 122, 122, 122, 122, 123, 124, 125, 126, 127, 129, ]
+( 0, 14 ) [130, 128, 127, 126, 125, 124, 124, 123, 124, 124, 124, 125, 126, 127, 129, 130, ]
+( 0, 15 ) [131, 130, 128, 127, 126, 126, 125, 125, 125, 125, 126, 127, 128, 129, 130, 132, ]
+
+ ==== (CG) Slave generates (obj:7036.16) with x = 55.4988 ==== 
+( 0, 0 ) [131, 129, 128, 127, 126, 125, 125, 125, 125, 125, 126, 126, 127, 128, 130, 131, ]
+( 0, 1 ) [129, 128, 127, 125, 125, 124, 123, 123, 123, 123, 124, 125, 126, 127, 128, 130, ]
+( 0, 2 ) [128, 127, 125, 124, 123, 123, 122, 122, 122, 122, 123, 123, 124, 126, 127, 128, ]
+( 0, 3 ) [127, 125, 124, 123, 122, 121, 121, 121, 121, 121, 122, 122, 123, 124, 126, 127, ]
+( 0, 4 ) [126, 125, 123, 122, 121, 121, 120, 120, 120, 120, 121, 121, 122, 123, 125, 126, ]
+( 0, 5 ) [125, 124, 123, 121, 121, 120, 119, 119, 119, 119, 120, 121, 122, 123, 124, 126, ]
+( 0, 6 ) [125, 123, 122, 121, 120, 119, 119, 119, 119, 119, 120, 120, 121, 122, 124, 125, ]
+( 0, 7 ) [125, 123, 122, 121, 120, 119, 119, 118, 119, 119, 119, 120, 121, 122, 123, 125, ]
+( 0, 8 ) [125, 123, 122, 121, 120, 119, 119, 119, 119, 119, 119, 120, 121, 122, 124, 125, ]
+( 0, 9 ) [125, 123, 122, 121, 120, 119, 119, 119, 119, 119, 120, 120, 121, 122, 124, 125, ]
+( 0, 10 ) [126, 124, 123, 122, 121, 120, 120, 119, 119, 120, 120, 121, 122, 123, 124, 126, ]
+( 0, 11 ) [126, 125, 123, 122, 121, 121, 120, 120, 120, 120, 121, 122, 122, 124, 125, 127, ]
+( 0, 12 ) [127, 126, 124, 123, 122, 122, 121, 121, 121, 121, 122, 122, 123, 125, 126, 128, ]
+( 0, 13 ) [128, 127, 126, 124, 123, 123, 122, 122, 122, 122, 123, 124, 125, 126, 127, 129, ]
+( 0, 14 ) [130, 128, 127, 126, 125, 124, 124, 123, 124, 124, 124, 125, 126, 127, 129, 130, ]
+( 0, 15 ) [131, 130, 128, 127, 126, 126, 125, 125, 125, 125, 126, 127, 128, 129, 130, 132, ]
+
+ ==== (CG) Slave generates (obj:2402.8) with x = 45.5013 ==== 
+( 0, 0 ) [124, 123, 122, 121, 121, 120, 120, 120, 120, 121, 121, 123, 124, 126, 127, 129, ]
+( 0, 1 ) [123, 122, 121, 120, 119, 119, 118, 119, 119, 120, 120, 121, 123, 124, 126, 128, ]
+( 0, 2 ) [122, 121, 119, 118, 118, 117, 117, 118, 117, 118, 119, 120, 122, 123, 125, 126, ]
+( 0, 3 ) [121, 120, 118, 118, 118, 117, 117, 117, 117, 118, 118, 119, 121, 123, 124, 126, ]
+( 0, 4 ) [121, 119, 118, 118, 117, 116, 116, 117, 116, 118, 118, 119, 120, 122, 124, 125, ]
+( 0, 5 ) [120, 119, 117, 117, 116, 116, 115, 116, 116, 117, 117, 119, 120, 122, 123, 125, ]
+( 0, 6 ) [120, 118, 117, 117, 116, 115, 115, 115, 115, 116, 117, 118, 120, 121, 122, 124, ]
+( 0, 7 ) [120, 119, 118, 117, 117, 116, 115, 116, 116, 117, 118, 119, 120, 122, 123, 125, ]
+( 0, 8 ) [120, 119, 117, 117, 116, 116, 115, 116, 116, 117, 118, 119, 120, 122, 123, 125, ]
+( 0, 9 ) [121, 120, 118, 118, 118, 117, 116, 117, 117, 118, 118, 119, 121, 123, 124, 126, ]
+( 0, 10 ) [121, 120, 119, 118, 118, 117, 117, 118, 118, 118, 119, 120, 121, 123, 125, 127, ]
+( 0, 11 ) [123, 121, 120, 119, 119, 119, 118, 119, 119, 119, 120, 121, 123, 124, 126, 128, ]
+( 0, 12 ) [124, 123, 122, 121, 120, 120, 120, 120, 120, 121, 121, 123, 124, 126, 127, 129, ]
+( 0, 13 ) [126, 124, 123, 123, 122, 122, 121, 122, 122, 123, 123, 124, 126, 127, 129, 131, ]
+( 0, 14 ) [127, 126, 125, 124, 124, 123, 122, 123, 123, 124, 125, 126, 127, 129, 130, 132, ]
+( 0, 15 ) [129, 128, 126, 126, 125, 125, 124, 125, 125, 126, 127, 128, 129, 131, 132, 134, ]
+
+ ==== (CG) Slave generates (obj:2402.8) with x = 45.5013 ==== 
+( 0, 0 ) [124, 123, 122, 121, 121, 120, 120, 120, 120, 121, 121, 123, 124, 126, 127, 129, ]
+( 0, 1 ) [123, 122, 121, 120, 119, 119, 118, 119, 119, 120, 120, 121, 123, 124, 126, 128, ]
+( 0, 2 ) [122, 121, 119, 118, 118, 117, 117, 118, 117, 118, 119, 120, 122, 123, 125, 126, ]
+( 0, 3 ) [121, 120, 118, 118, 118, 117, 117, 117, 117, 118, 118, 119, 121, 123, 124, 126, ]
+( 0, 4 ) [121, 119, 118, 118, 117, 116, 116, 117, 116, 118, 118, 119, 120, 122, 124, 125, ]
+( 0, 5 ) [120, 119, 117, 117, 116, 116, 115, 116, 116, 117, 117, 119, 120, 122, 123, 125, ]
+( 0, 6 ) [120, 118, 117, 117, 116, 115, 115, 115, 115, 116, 117, 118, 120, 121, 122, 124, ]
+( 0, 7 ) [120, 119, 118, 117, 117, 116, 115, 116, 116, 117, 118, 119, 120, 122, 123, 125, ]
+( 0, 8 ) [120, 119, 117, 117, 116, 116, 115, 116, 116, 117, 118, 119, 120, 122, 123, 125, ]
+( 0, 9 ) [121, 120, 118, 118, 118, 117, 116, 117, 117, 118, 118, 119, 121, 123, 124, 126, ]
+( 0, 10 ) [121, 120, 119, 118, 118, 117, 117, 118, 118, 118, 119, 120, 121, 123, 125, 127, ]
+( 0, 11 ) [123, 121, 120, 119, 119, 119, 118, 119, 119, 119, 120, 121, 123, 124, 126, 128, ]
+( 0, 12 ) [124, 123, 122, 121, 120, 120, 120, 120, 120, 121, 121, 123, 124, 126, 127, 129, ]
+( 0, 13 ) [126, 124, 123, 123, 122, 122, 121, 122, 122, 123, 123, 124, 126, 127, 129, 131, ]
+( 0, 14 ) [127, 126, 125, 124, 124, 123, 122, 123, 123, 124, 125, 126, 127, 129, 130, 132, ]
+( 0, 15 ) [129, 128, 126, 126, 125, 125, 124, 125, 125, 126, 127, 128, 129, 131, 132, 134, ]
+
+ ==== (CG) Running Master, iteration 3 ==== 
+Optimize a model with 142592 rows, 285204 columns and 336384 nonzeros
+Coefficient statistics:
+  Matrix range     [5e-02, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [7e-05, 1e+02]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.3645930e+05   0.000000e+00   1.090043e+04      0s
+ ==== (Output of slave 1) ====
+MIP start 218 did not produce a new incumbent solution
+MIP start 219 did not produce a new incumbent solution
+MIP start 220 did not produce a new incumbent solution
+MIP start 221 did not produce a new incumbent solution
+MIP start 222 did not produce a new incumbent solution
+MIP start 223 did not produce a new incumbent solution
+MIP start 224 did not produce a new incumbent solution
+MIP start 225 did not produce a new incumbent solution
+MIP start 226 did not produce a new incumbent solution
+MIP start 227 did not produce a new incumbent solution
+MIP start 228 did not produce a new incumbent solution
+MIP start 229 did not produce a new incumbent solution
+MIP start 230 did not produce a new incumbent solution
+MIP start 231 did not produce a new incumbent solution
+MIP start 232 did not produce a new incumbent solution
+MIP start 233 did not produce a new incumbent solution
+MIP start 234 did not produce a new incumbent solution
+MIP start 235 did not produce a new incumbent solution
+MIP start 236 did not produce a new incumbent solution
+MIP start 237 did not produce a new incumbent solution
+MIP start 238 did not produce a new incumbent solution
+MIP start 239 did not produce a new incumbent solution
+MIP start 240 did not produce a new incumbent solution
+MIP start 241 did not produce a new incumbent solution
+MIP start 242 did not produce a new incumbent solution
+MIP start 243 did not produce a new incumbent solution
+MIP start 244 did not produce a new incumbent solution
+MIP start 245 did not produce a new incumbent solution
+MIP start 246 did not produce a new incumbent solution
+MIP start 247 did not produce a new incumbent solution
+MIP start 248 did not produce a new incumbent solution
+MIP start 249 did not produce a new incumbent solution
+MIP start 250 did not produce a new incumbent solution
+MIP start 251 did not produce a new incumbent solution
+MIP start 252 did not produce a new incumbent solution
+MIP start 253 did not produce a new incumbent solution
+MIP start 254 did not produce a new incumbent solution
+MIP start 255 did not produce a new incumbent solution
+MIP start 256 did not produce a new incumbent solution
+ ==== (Output of slave 2) ====
+MIP start 135 did not produce a new incumbent solution
+MIP start 136 did not produce a new incumbent solution
+MIP start 137 did not produce a new incumbent solution
+MIP start 138 did not produce a new incumbent solution
+MIP start 139 did not produce a new incumbent solution
+MIP start 140 did not produce a new incumbent solution
+MIP start 141 did not produce a new incumbent solution
+MIP start 142 did not produce a new incumbent solution
+MIP start 143 did not produce a new incumbent solution
+MIP start 144 did not produce a new incumbent solution
+MIP start 145 did not produce a new incumbent solution
+MIP start 146 did not produce a new incumbent solution
+MIP start 147 did not produce a new incumbent solution
+MIP start 148 did not produce a new incumbent solution
+MIP start 149 did not produce a new incumbent solution
+MIP start 150 did not produce a new incumbent solution
+MIP start 151 did not produce a new incumbent solution
+MIP start 152 did not produce a new incumbent solution
+MIP start 153 did not produce a new incumbent solution
+MIP start 154 did not produce a new incumbent solution
+MIP start 155 did not produce a new incumbent solution
+MIP start 156 did not produce a new incumbent solution
+MIP start 157 did not produce a new incumbent solution
+MIP start 158 did not produce a new incumbent solution
+MIP start 159 did not produce a new incumbent solution
+MIP start 160 did not produce a new incumbent solution
+MIP start 161 did not produce a new incumbent solution
+MIP start 162 did not produce a new incumbent solution
+MIP start 163 did not produce a new incumbent solution
+MIP start 164 did not produce a new incumbent solution
+MIP start 165 did not produce a new incumbent solution
+MIP start 166 did not produce a new incumbent solution
+MIP start 167 did not produce a new incumbent solution
+MIP start 168 did not produce a new incumbent solution
+MIP start 169 did not produce a new incumbent solution
+MIP start 170 did not produce a new incumbent solution
+MIP start 171 did not produce a new incumbent solution
+ ==== (Output of slave 3) ====
+MIP start 19 did not produce a new incumbent solution
+MIP start 20 did not produce a new incumbent solution
+MIP start 21 did not produce a new incumbent solution
+MIP start 22 did not produce a new incumbent solution
+MIP start 23 did not produce a new incumbent solution
+MIP start 24 did not produce a new incumbent solution
+MIP start 25 did not produce a new incumbent solution
+MIP start 26 did not produce a new incumbent solution
+MIP start 27 did not produce a new incumbent solution
+MIP start 28 did not produce a new incumbent solution
+MIP start 29 did not produce a new incumbent solution
+MIP start 30 did not produce a new incumbent solution
+MIP start 31 did not produce a new incumbent solution
+MIP start 32 did not produce a new incumbent solution
+MIP start 33 produced solution with objective 45731.6 (3.54s)
+Loaded MIP start 33 with objective 45731.6
+MIP start 34 did not produce a new incumbent solution
+MIP start 35 did not produce a new incumbent solution
+MIP start 36 did not produce a new incumbent solution
+MIP start 37 did not produce a new incumbent solution
+MIP start 38 did not produce a new incumbent solution
+MIP start 39 did not produce a new incumbent solution
+MIP start 40 did not produce a new incumbent solution
+MIP start 41 did not produce a new incumbent solution
+MIP start 42 did not produce a new incumbent solution
+MIP start 43 did not produce a new incumbent solution
+MIP start 44 did not produce a new incumbent solution
+MIP start 45 did not produce a new incumbent solution
+MIP start 46 did not produce a new incumbent solution
+MIP start 47 did not produce a new incumbent solution
+MIP start 48 did not produce a new incumbent solution
+MIP start 49 did not produce a new incumbent solution
+MIP start 50 did not produce a new incumbent solution
+MIP start 51 did not produce a new incumbent solution
+MIP start 52 did not produce a new incumbent solution
+MIP start 53 did not produce a new incumbent solution
+MIP start 54 did not produce a new incumbent solution
+MIP start 55 did not produce a new incumbent solution
+MIP start 56 did not produce a new incumbent solution
+    1469    1.3376058e+05   0.000000e+00   0.000000e+00      4s
+
+Solved in 1469 iterations and 4.20 seconds
+Optimal objective  1.337605833e+05
+ ==== (CG) Master Objective : 133760.583345 ==== 
+ ==== (CG) Running Slave, iteration 4 ==== 
+ ==== (CG) Slave generates (obj:45731.6) with x = 57.6246 ==== 
+( 0, 0 ) [122, 121, 119, 118, 116, 116, 115, 115, 115, 115, 115, 117, 118, 119, 120, 121, ]
+( 0, 1 ) [121, 119, 118, 117, 115, 114, 114, 113, 114, 114, 114, 115, 116, 117, 118, 120, ]
+( 0, 2 ) [119, 118, 116, 115, 113, 113, 112, 112, 112, 112, 113, 113, 115, 115, 117, 119, ]
+( 0, 3 ) [118, 117, 115, 114, 113, 112, 112, 111, 111, 111, 112, 112, 113, 114, 116, 117, ]
+( 0, 4 ) [116, 115, 113, 113, 111, 111, 110, 109, 110, 110, 110, 111, 112, 113, 115, 116, ]
+( 0, 5 ) [116, 114, 113, 112, 111, 110, 109, 109, 109, 109, 110, 110, 112, 113, 114, 116, ]
+( 0, 6 ) [115, 114, 112, 112, 110, 109, 109, 108, 109, 109, 109, 110, 111, 112, 113, 115, ]
+( 0, 7 ) [115, 113, 112, 111, 109, 109, 108, 108, 108, 109, 108, 109, 110, 112, 113, 114, ]
+( 0, 8 ) [115, 114, 112, 111, 110, 109, 109, 108, 108, 109, 108, 109, 110, 112, 113, 115, ]
+( 0, 9 ) [115, 114, 112, 111, 110, 109, 109, 109, 109, 109, 109, 110, 111, 112, 114, 115, ]
+( 0, 10 ) [115, 114, 113, 112, 110, 110, 109, 108, 108, 109, 109, 110, 111, 112, 114, 115, ]
+( 0, 11 ) [117, 115, 113, 112, 111, 110, 110, 109, 109, 110, 110, 111, 112, 113, 114, 116, ]
+( 0, 12 ) [118, 116, 115, 113, 112, 112, 111, 110, 110, 111, 111, 112, 113, 114, 115, 117, ]
+( 0, 13 ) [119, 117, 115, 114, 113, 113, 112, 112, 112, 112, 112, 113, 114, 115, 117, 118, ]
+( 0, 14 ) [120, 118, 117, 116, 115, 114, 113, 113, 113, 114, 114, 114, 115, 117, 118, 119, ]
+( 0, 15 ) [121, 120, 119, 117, 116, 116, 115, 114, 115, 115, 115, 116, 117, 118, 119, 121, ]
+
+ ==== (CG) Slave generates (obj:45731.6) with x = 57.6246 ==== 
+( 0, 0 ) [122, 121, 119, 118, 116, 116, 115, 115, 115, 115, 115, 117, 118, 119, 120, 121, ]
+( 0, 1 ) [121, 119, 118, 117, 115, 114, 114, 113, 114, 114, 114, 115, 116, 117, 118, 120, ]
+( 0, 2 ) [119, 118, 116, 115, 113, 113, 112, 112, 112, 112, 113, 113, 115, 115, 117, 119, ]
+( 0, 3 ) [118, 117, 115, 114, 113, 112, 112, 111, 111, 111, 112, 112, 113, 114, 116, 117, ]
+( 0, 4 ) [116, 115, 113, 113, 111, 111, 110, 109, 110, 110, 110, 111, 112, 113, 115, 116, ]
+( 0, 5 ) [116, 114, 113, 112, 111, 110, 109, 109, 109, 109, 110, 110, 112, 113, 114, 116, ]
+( 0, 6 ) [115, 114, 112, 112, 110, 109, 109, 108, 109, 109, 109, 110, 111, 112, 113, 115, ]
+( 0, 7 ) [115, 113, 112, 111, 109, 109, 108, 108, 108, 109, 108, 109, 110, 112, 113, 114, ]
+( 0, 8 ) [115, 114, 112, 111, 110, 109, 109, 108, 108, 109, 108, 109, 110, 112, 113, 115, ]
+( 0, 9 ) [115, 114, 112, 111, 110, 109, 109, 109, 109, 109, 109, 110, 111, 112, 114, 115, ]
+( 0, 10 ) [115, 114, 113, 112, 110, 110, 109, 108, 108, 109, 109, 110, 111, 112, 114, 115, ]
+( 0, 11 ) [117, 115, 113, 112, 111, 110, 110, 109, 109, 110, 110, 111, 112, 113, 114, 116, ]
+( 0, 12 ) [118, 116, 115, 113, 112, 112, 111, 110, 110, 111, 111, 112, 113, 114, 115, 117, ]
+( 0, 13 ) [119, 117, 115, 114, 113, 113, 112, 112, 112, 112, 112, 113, 114, 115, 117, 118, ]
+( 0, 14 ) [120, 118, 117, 116, 115, 114, 113, 113, 113, 114, 114, 114, 115, 117, 118, 119, ]
+( 0, 15 ) [121, 120, 119, 117, 116, 116, 115, 114, 115, 115, 115, 116, 117, 118, 119, 121, ]
+
+ ==== (CG) Running Master, iteration 4 ==== 
+Optimize a model with 142592 rows, 285206 columns and 341504 nonzeros
+Coefficient statistics:
+  Matrix range     [5e-02, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [7e-05, 1e+02]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.3376058e+05   0.000000e+00   6.206329e+03      0s
+ ==== (Output of slave 1) ====
+MIP start 257 did not produce a new incumbent solution
+MIP start 258 did not produce a new incumbent solution
+MIP start 259 did not produce a new incumbent solution
+MIP start 260 did not produce a new incumbent solution
+MIP start 261 did not produce a new incumbent solution
+MIP start 262 did not produce a new incumbent solution
+MIP start 263 did not produce a new incumbent solution
+MIP start 264 did not produce a new incumbent solution
+MIP start 265 did not produce a new incumbent solution
+MIP start 266 did not produce a new incumbent solution
+MIP start 267 did not produce a new incumbent solution
+MIP start 268 did not produce a new incumbent solution
+MIP start 269 did not produce a new incumbent solution
+MIP start 270 did not produce a new incumbent solution
+MIP start 271 did not produce a new incumbent solution
+MIP start 272 did not produce a new incumbent solution
+MIP start 273 did not produce a new incumbent solution
+MIP start 274 did not produce a new incumbent solution
+MIP start 275 did not produce a new incumbent solution
+MIP start 276 did not produce a new incumbent solution
+MIP start 277 did not produce a new incumbent solution
+MIP start 278 did not produce a new incumbent solution
+MIP start 279 did not produce a new incumbent solution
+MIP start 280 did not produce a new incumbent solution
+MIP start 281 did not produce a new incumbent solution
+MIP start 282 did not produce a new incumbent solution
+MIP start 283 did not produce a new incumbent solution
+MIP start 284 did not produce a new incumbent solution
+MIP start 285 did not produce a new incumbent solution
+MIP start 286 did not produce a new incumbent solution
+MIP start 287 did not produce a new incumbent solution
+MIP start 288 did not produce a new incumbent solution
+MIP start 289 did not produce a new incumbent solution
+MIP start 290 did not produce a new incumbent solution
+MIP start 291 did not produce a new incumbent solution
+MIP start 292 did not produce a new incumbent solution
+MIP start 293 did not produce a new incumbent solution
+MIP start 294 did not produce a new incumbent solution
+MIP start 295 did not produce a new incumbent solution
+
+ ==== (Output of slave 2) ====
+MIP start 172 did not produce a new incumbent solution
+MIP start 173 did not produce a new incumbent solution
+MIP start 174 did not produce a new incumbent solution
+MIP start 175 did not produce a new incumbent solution
+MIP start 176 did not produce a new incumbent solution
+MIP start 177 did not produce a new incumbent solution
+MIP start 178 did not produce a new incumbent solution
+MIP start 179 did not produce a new incumbent solution
+MIP start 180 did not produce a new incumbent solution
+MIP start 181 did not produce a new incumbent solution
+MIP start 182 did not produce a new incumbent solution
+MIP start 183 did not produce a new incumbent solution
+MIP start 184 did not produce a new incumbent solution
+MIP start 185 did not produce a new incumbent solution
+MIP start 186 did not produce a new incumbent solution
+MIP start 187 did not produce a new incumbent solution
+MIP start 188 did not produce a new incumbent solution
+MIP start 189 did not produce a new incumbent solution
+MIP start 190 did not produce a new incumbent solution
+MIP start 191 did not produce a new incumbent solution
+MIP start 192 did not produce a new incumbent solution
+MIP start 193 did not produce a new incumbent solution
+MIP start 194 did not produce a new incumbent solution
+MIP start 195 did not produce a new incumbent solution
+MIP start 196 did not produce a new incumbent solution
+MIP start 197 did not produce a new incumbent solution
+MIP start 198 did not produce a new incumbent solution
+MIP start 199 did not produce a new incumbent solution
+MIP start 200 did not produce a new incumbent solution
+MIP start 201 did not produce a new incumbent solution
+MIP start 202 did not produce a new incumbent solution
+MIP start 203 did not produce a new incumbent solution
+MIP start 204 did not produce a new incumbent solution
+MIP start 205 did not produce a new incumbent solution
+MIP start 206 did not produce a new incumbent solution
+MIP start 207 did not produce a new incumbent solution
+MIP start 208 did not produce a new incumbent solution
+MIP start 209 did not produce a new incumbent solution
+ ==== (Output of slave 3) ====
+MIP start 57 did not produce a new incumbent solution
+MIP start 58 did not produce a new incumbent solution
+MIP start 59 did not produce a new incumbent solution
+MIP start 60 did not produce a new incumbent solution
+MIP start 61 did not produce a new incumbent solution
+MIP start 62 did not produce a new incumbent solution
+MIP start 63 did not produce a new incumbent solution
+MIP start 64 did not produce a new incumbent solution
+MIP start 65 did not produce a new incumbent solution
+MIP start 66 did not produce a new incumbent solution
+MIP start 67 did not produce a new incumbent solution
+MIP start 68 did not produce a new incumbent solution
+MIP start 69 did not produce a new incumbent solution
+MIP start 70 did not produce a new incumbent solution
+MIP start 71 did not produce a new incumbent solution
+MIP start 72 did not produce a new incumbent solution
+MIP start 73 did not produce a new incumbent solution
+MIP start 74 did not produce a new incumbent solution
+MIP start 75 did not produce a new incumbent solution
+MIP start 76 did not produce a new incumbent solution
+MIP start 77 did not produce a new incumbent solution
+MIP start 78 did not produce a new incumbent solution
+MIP start 79 did not produce a new incumbent solution
+MIP start 80 did not produce a new incumbent solution
+MIP start 81 did not produce a new incumbent solution
+MIP start 82 did not produce a new incumbent solution
+MIP start 83 did not produce a new incumbent solution
+MIP start 84 did not produce a new incumbent solution
+MIP start 85 did not produce a new incumbent solution
+MIP start 86 did not produce a new incumbent solution
+MIP start 87 did not produce a new incumbent solution
+MIP start 88 did not produce a new incumbent solution
+MIP start 89 did not produce a new incumbent solution
+MIP start 90 did not produce a new incumbent solution
+MIP start 91 did not produce a new incumbent solution
+MIP start 92 did not produce a new incumbent solution
+MIP start 93 did not produce a new incumbent solution
+    1250    1.2857081e+05   0.000000e+00   0.000000e+00      4s
+
+Solved in 1250 iterations and 4.10 seconds
+Optimal objective  1.285708129e+05
+ ==== (CG) Master Objective : 128570.812945 ==== 
+ ==== (CG) Running Slave, iteration 5 ==== 
+ ==== Current Pool-statistics :4/22 old-slave-constraints separated master and actual size :0 ====
+ ==== (Output of slave 2) ====
+MIP start 210 did not produce a new incumbent solution
+MIP start 211 did not produce a new incumbent solution
+MIP start 212 did not produce a new incumbent solution
+MIP start 213 did not produce a new incumbent solution
+MIP start 214 did not produce a new incumbent solution
+MIP start 215 did not produce a new incumbent solution
+ ==== (Output of slave 3) ====
+MIP start 94 did not produce a new incumbent solution
+MIP start 95 did not produce a new incumbent solution
+MIP start 96 did not produce a new incumbent solution
+MIP start 97 did not produce a new incumbent solution
+MIP start 98 did not produce a new incumbent solution
+MIP start 99 did not produce a new incumbent solution
+ ==== (Output of slave 1) ====
+Presolve removed 135 rows and 135 columns
+Presolve time: 0.75s
+Presolved: 442 rows, 75770 columns, 245385 nonzeros
+Variable types: 18 continuous, 75752 integer (75752 binary)
+
+Explored 0 nodes (0 simplex iterations) in 23.25 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 103298 31336.4 23249.1 5354.37 
+
+Optimization achieved user objective limit
+Best objective 1.032980545280e+05, best bound 1.968291132840e+06, gap 1805.4484%
+ ==== (Output of slave 2) ====
+MIP start 216 did not produce a new incumbent solution
+MIP start 217 did not produce a new incumbent solution
+MIP start 218 did not produce a new incumbent solution
+MIP start 219 did not produce a new incumbent solution
+MIP start 220 did not produce a new incumbent solution
+MIP start 221 did not produce a new incumbent solution
+MIP start 222 did not produce a new incumbent solution
+MIP start 223 did not produce a new incumbent solution
+MIP start 224 did not produce a new incumbent solution
+MIP start 225 did not produce a new incumbent solution
+MIP start 226 did not produce a new incumbent solution
+MIP start 227 did not produce a new incumbent solution
+MIP start 228 did not produce a new incumbent solution
+MIP start 229 did not produce a new incumbent solution
+MIP start 230 did not produce a new incumbent solution
+MIP start 231 did not produce a new incumbent solution
+MIP start 232 did not produce a new incumbent solution
+MIP start 233 did not produce a new incumbent solution
+MIP start 234 did not produce a new incumbent solution
+MIP start 235 did not produce a new incumbent solution
+ ==== (Output of slave 3) ====
+MIP start 100 did not produce a new incumbent solution
+MIP start 101 did not produce a new incumbent solution
+MIP start 102 did not produce a new incumbent solution
+MIP start 103 did not produce a new incumbent solution
+MIP start 104 did not produce a new incumbent solution
+MIP start 105 did not produce a new incumbent solution
+MIP start 106 did not produce a new incumbent solution
+MIP start 107 did not produce a new incumbent solution
+MIP start 108 did not produce a new incumbent solution
+MIP start 109 did not produce a new incumbent solution
+MIP start 110 did not produce a new incumbent solution
+MIP start 111 did not produce a new incumbent solution
+MIP start 112 did not produce a new incumbent solution
+MIP start 113 did not produce a new incumbent solution
+ ==== (Output of slave 4) ====
+Optimize a model with 577 rows, 75905 columns and 245793 nonzeros
+Variable types: 153 continuous, 75752 integer (75752 binary)
+
+MIP start 0 produced solution with objective 12069.6 (0.13s)
+Loaded MIP start 0 with objective 12069.6
+MIP start 1 did not produce a new incumbent solution
+MIP start 2 did not produce a new incumbent solution
+MIP start 3 did not produce a new incumbent solution
+MIP start 4 did not produce a new incumbent solution
+MIP start 5 did not produce a new incumbent solution
+MIP start 6 did not produce a new incumbent solution
+MIP start 7 did not produce a new incumbent solution
+MIP start 8 did not produce a new incumbent solution
+MIP start 9 did not produce a new incumbent solution
+MIP start 10 did not produce a new incumbent solution
+MIP start 11 did not produce a new incumbent solution
+MIP start 12 did not produce a new incumbent solution
+MIP start 13 did not produce a new incumbent solution
+ ==== (CG) Slave generates (obj:12069.6) with x = 76.849 ==== 
+( 0, 0 ) [632, 632, 631, 631, 631, 630, 630, 630, 630, 630, 630, 630, 630, 630, 630, 630, ]
+( 0, 1 ) [632, 631, 631, 630, 630, 630, 630, 629, 629, 629, 629, 629, 629, 629, 630, 630, ]
+( 0, 2 ) [631, 631, 630, 630, 630, 629, 629, 629, 629, 629, 629, 629, 629, 629, 629, 629, ]
+( 0, 3 ) [631, 630, 630, 630, 629, 629, 629, 629, 629, 629, 628, 628, 629, 629, 629, 629, ]
+( 0, 4 ) [631, 630, 630, 629, 629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 629, ]
+( 0, 5 ) [630, 630, 629, 629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, ]
+( 0, 6 ) [630, 630, 629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, ]
+( 0, 7 ) [630, 629, 629, 629, 628, 628, 628, 628, 628, 628, 627, 627, 628, 628, 628, 628, ]
+( 0, 8 ) [630, 629, 629, 629, 628, 628, 628, 628, 627, 627, 627, 627, 627, 628, 628, 628, ]
+( 0, 9 ) [630, 629, 629, 629, 628, 628, 628, 628, 627, 627, 627, 627, 627, 627, 628, 627, ]
+( 0, 10 ) [630, 629, 629, 628, 628, 628, 628, 627, 627, 627, 627, 627, 627, 627, 628, 628, ]
+( 0, 11 ) [630, 629, 629, 628, 628, 628, 628, 627, 627, 627, 627, 627, 627, 627, 628, 628, ]
+( 0, 12 ) [630, 629, 629, 629, 628, 628, 628, 628, 627, 627, 627, 627, 627, 627, 628, 628, ]
+( 0, 13 ) [630, 629, 629, 629, 628, 628, 628, 628, 628, 627, 627, 627, 627, 628, 628, 628, ]
+( 0, 14 ) [630, 630, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, ]
+( 0, 15 ) [630, 630, 629, 629, 629, 628, 628, 628, 628, 627, 628, 628, 628, 628, 628, 628, ]
+
+ ==== (CG) Slave generates (obj:12069.6) with x = 76.849 ==== 
+( 0, 0 ) [632, 632, 631, 631, 631, 630, 630, 630, 630, 630, 630, 630, 630, 630, 630, 630, ]
+( 0, 1 ) [632, 631, 631, 630, 630, 630, 630, 629, 629, 629, 629, 629, 629, 629, 630, 630, ]
+( 0, 2 ) [631, 631, 630, 630, 630, 629, 629, 629, 629, 629, 629, 629, 629, 629, 629, 629, ]
+( 0, 3 ) [631, 630, 630, 630, 629, 629, 629, 629, 629, 629, 628, 628, 629, 629, 629, 629, ]
+( 0, 4 ) [631, 630, 630, 629, 629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 629, ]
+( 0, 5 ) [630, 630, 629, 629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, ]
+( 0, 6 ) [630, 630, 629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, ]
+( 0, 7 ) [630, 629, 629, 629, 628, 628, 628, 628, 628, 628, 627, 627, 628, 628, 628, 628, ]
+( 0, 8 ) [630, 629, 629, 629, 628, 628, 628, 628, 627, 627, 627, 627, 627, 628, 628, 628, ]
+( 0, 9 ) [630, 629, 629, 629, 628, 628, 628, 628, 627, 627, 627, 627, 627, 627, 628, 627, ]
+( 0, 10 ) [630, 629, 629, 628, 628, 628, 628, 627, 627, 627, 627, 627, 627, 627, 628, 628, ]
+( 0, 11 ) [630, 629, 629, 628, 628, 628, 628, 627, 627, 627, 627, 627, 627, 627, 628, 628, ]
+( 0, 12 ) [630, 629, 629, 629, 628, 628, 628, 628, 627, 627, 627, 627, 627, 627, 628, 628, ]
+( 0, 13 ) [630, 629, 629, 629, 628, 628, 628, 628, 628, 627, 627, 627, 627, 628, 628, 628, ]
+( 0, 14 ) [630, 630, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, ]
+( 0, 15 ) [630, 630, 629, 629, 629, 628, 628, 628, 628, 627, 628, 628, 628, 628, 628, 628, ]
+
+ ==== (CG) Running Master, iteration 5 ==== 
+Optimize a model with 142592 rows, 285208 columns and 346624 nonzeros
+Coefficient statistics:
+  Matrix range     [5e-02, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [7e-05, 1e+02]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.2857081e+05   0.000000e+00   1.508701e+03      0s
+     187    1.2852166e+05   0.000000e+00   0.000000e+00      1s
+
+Solved in 187 iterations and 0.86 seconds
+Optimal objective  1.285216604e+05
+ ==== (CG) Master Objective : 128521.660398 ==== 
+ ==== (CG) Running Slave, iteration 6 ==== 
+ ==== Current Pool-statistics :4/24 old-slave-constraints separated master and actual size :0 ====
+ ==== (Output of slave 1) ====
+Optimize a model with 577 rows, 75905 columns and 245793 nonzeros
+Variable types: 153 continuous, 75752 integer (75752 binary)
+
+ ==== (Output of slave 2) ====
+MIP start 236 did not produce a new incumbent solution
+MIP start 237 did not produce a new incumbent solution
+MIP start 238 did not produce a new incumbent solution
+MIP start 239 did not produce a new incumbent solution
+MIP start 240 did not produce a new incumbent solution
+MIP start 241 did not produce a new incumbent solution
+MIP start 242 did not produce a new incumbent solution
+MIP start 243 did not produce a new incumbent solution
+MIP start 244 did not produce a new incumbent solution
+MIP start 245 did not produce a new incumbent solution
+MIP start 246 did not produce a new incumbent solution
+MIP start 247 did not produce a new incumbent solution
+MIP start 248 did not produce a new incumbent solution
+MIP start 249 did not produce a new incumbent solution
+MIP start 250 did not produce a new incumbent solution
+ ==== (Output of slave 3) ====
+MIP start 114 did not produce a new incumbent solution
+MIP start 115 did not produce a new incumbent solution
+MIP start 116 did not produce a new incumbent solution
+MIP start 117 did not produce a new incumbent solution
+MIP start 118 did not produce a new incumbent solution
+MIP start 119 did not produce a new incumbent solution
+MIP start 120 did not produce a new incumbent solution
+MIP start 121 did not produce a new incumbent solution
+MIP start 122 did not produce a new incumbent solution
+MIP start 123 did not produce a new incumbent solution
+MIP start 124 did not produce a new incumbent solution
+MIP start 125 did not produce a new incumbent solution
+MIP start 126 did not produce a new incumbent solution
+MIP start 127 did not produce a new incumbent solution
+MIP start 128 did not produce a new incumbent solution
+ ==== (Output of slave 4) ====
+MIP start 14 did not produce a new incumbent solution
+MIP start 15 did not produce a new incumbent solution
+MIP start 16 did not produce a new incumbent solution
+MIP start 17 did not produce a new incumbent solution
+MIP start 18 did not produce a new incumbent solution
+MIP start 19 did not produce a new incumbent solution
+MIP start 20 did not produce a new incumbent solution
+MIP start 21 did not produce a new incumbent solution
+MIP start 22 did not produce a new incumbent solution
+MIP start 23 did not produce a new incumbent solution
+MIP start 24 did not produce a new incumbent solution
+MIP start 25 did not produce a new incumbent solution
+MIP start 26 did not produce a new incumbent solution
+MIP start 27 did not produce a new incumbent solution
+MIP start 28 did not produce a new incumbent solution
+MIP start 29 did not produce a new incumbent solution
+MIP start 30 did not produce a new incumbent solution
+ ==== (Output of slave 1) ====
+MIP start 0 produced solution with objective 7.85416e-12 (0.10s)
+Loaded MIP start 0 with objective 5.91172e-12
+Loaded MIP start 1 with objective 5.91172e-12
+MIP start 2 did not produce a new incumbent solution
+MIP start 3 did not produce a new incumbent solution
+ ==== (Output of slave 2) ====
+MIP start 251 did not produce a new incumbent solution
+MIP start 252 did not produce a new incumbent solution
+MIP start 253 did not produce a new incumbent solution
+MIP start 254 did not produce a new incumbent solution
+ ==== (Output of slave 3) ====
+MIP start 129 did not produce a new incumbent solution
+MIP start 130 did not produce a new incumbent solution
+MIP start 131 did not produce a new incumbent solution
+MIP start 132 did not produce a new incumbent solution
+ ==== (Output of slave 4) ====
+MIP start 31 did not produce a new incumbent solution
+MIP start 32 did not produce a new incumbent solution
+MIP start 33 did not produce a new incumbent solution
+MIP start 34 did not produce a new incumbent solution
+ ==== (CG) Slave generates (obj:42094.9) with x = 51.0645 ==== 
+( 0, 0 ) [120, 118, 117, 116, 116, 115, 115, 115, 115, 115, 115, 116, 118, 119, 121, 123, ]
+( 0, 1 ) [118, 117, 116, 114, 114, 114, 113, 113, 113, 113, 114, 115, 117, 117, 119, 121, ]
+( 0, 2 ) [117, 116, 115, 114, 113, 113, 112, 112, 112, 112, 113, 114, 115, 117, 119, 120, ]
+( 0, 3 ) [116, 114, 114, 112, 111, 111, 110, 110, 111, 111, 111, 113, 114, 115, 117, 118, ]
+( 0, 4 ) [116, 114, 113, 111, 111, 111, 110, 110, 110, 110, 111, 112, 114, 114, 117, 118, ]
+( 0, 5 ) [115, 114, 113, 111, 111, 110, 109, 109, 109, 110, 110, 111, 113, 114, 116, 118, ]
+( 0, 6 ) [115, 113, 112, 110, 110, 109, 109, 109, 109, 109, 110, 111, 113, 113, 115, 117, ]
+( 0, 7 ) [115, 113, 112, 110, 110, 109, 109, 109, 109, 109, 110, 111, 113, 114, 116, 117, ]
+( 0, 8 ) [115, 113, 112, 111, 110, 109, 109, 109, 109, 109, 110, 111, 112, 114, 116, 117, ]
+( 0, 9 ) [115, 113, 112, 111, 110, 110, 109, 109, 109, 110, 111, 111, 113, 114, 116, 118, ]
+( 0, 10 ) [115, 114, 113, 111, 111, 110, 110, 110, 110, 111, 111, 112, 113, 115, 117, 118, ]
+( 0, 11 ) [116, 115, 114, 113, 112, 111, 111, 111, 111, 111, 112, 113, 115, 115, 117, 119, ]
+( 0, 12 ) [118, 117, 115, 114, 114, 113, 113, 113, 112, 113, 113, 115, 116, 117, 119, 120, ]
+( 0, 13 ) [119, 117, 117, 115, 114, 114, 113, 114, 114, 114, 115, 115, 117, 118, 120, 121, ]
+( 0, 14 ) [121, 119, 119, 117, 117, 116, 115, 116, 116, 116, 117, 117, 119, 120, 122, 124, ]
+( 0, 15 ) [123, 121, 120, 118, 118, 118, 117, 117, 117, 118, 118, 119, 120, 121, 124, 125, ]
+
+ ==== (CG) Slave generates (obj:42094.9) with x = 51.0645 ==== 
+( 0, 0 ) [120, 118, 117, 116, 116, 115, 115, 115, 115, 115, 115, 116, 118, 119, 121, 123, ]
+( 0, 1 ) [118, 117, 116, 114, 114, 114, 113, 113, 113, 113, 114, 115, 117, 117, 119, 121, ]
+( 0, 2 ) [117, 116, 115, 114, 113, 113, 112, 112, 112, 112, 113, 114, 115, 117, 119, 120, ]
+( 0, 3 ) [116, 114, 114, 112, 111, 111, 110, 110, 111, 111, 111, 113, 114, 115, 117, 118, ]
+( 0, 4 ) [116, 114, 113, 111, 111, 111, 110, 110, 110, 110, 111, 112, 114, 114, 117, 118, ]
+( 0, 5 ) [115, 114, 113, 111, 111, 110, 109, 109, 109, 110, 110, 111, 113, 114, 116, 118, ]
+( 0, 6 ) [115, 113, 112, 110, 110, 109, 109, 109, 109, 109, 110, 111, 113, 113, 115, 117, ]
+( 0, 7 ) [115, 113, 112, 110, 110, 109, 109, 109, 109, 109, 110, 111, 113, 114, 116, 117, ]
+( 0, 8 ) [115, 113, 112, 111, 110, 109, 109, 109, 109, 109, 110, 111, 112, 114, 116, 117, ]
+( 0, 9 ) [115, 113, 112, 111, 110, 110, 109, 109, 109, 110, 111, 111, 113, 114, 116, 118, ]
+( 0, 10 ) [115, 114, 113, 111, 111, 110, 110, 110, 110, 111, 111, 112, 113, 115, 117, 118, ]
+( 0, 11 ) [116, 115, 114, 113, 112, 111, 111, 111, 111, 111, 112, 113, 115, 115, 117, 119, ]
+( 0, 12 ) [118, 117, 115, 114, 114, 113, 113, 113, 112, 113, 113, 115, 116, 117, 119, 120, ]
+( 0, 13 ) [119, 117, 117, 115, 114, 114, 113, 114, 114, 114, 115, 115, 117, 118, 120, 121, ]
+( 0, 14 ) [121, 119, 119, 117, 117, 116, 115, 116, 116, 116, 117, 117, 119, 120, 122, 124, ]
+( 0, 15 ) [123, 121, 120, 118, 118, 118, 117, 117, 117, 118, 118, 119, 120, 121, 124, 125, ]
+
+ ==== (CG) Slave generates (obj:5502.23) with x = -19.3271 ==== 
+( 0, 0 ) [627, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, 633, 634, ]
+( 0, 1 ) [628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, 633, 634, ]
+( 0, 2 ) [628, 628, 628, 628, 629, 629, 629, 630, 630, 630, 631, 632, 632, 633, 634, 634, ]
+( 0, 3 ) [628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 632, 633, 634, 635, ]
+( 0, 4 ) [628, 628, 629, 629, 629, 629, 630, 630, 630, 631, 631, 632, 633, 633, 634, 635, ]
+( 0, 5 ) [629, 629, 629, 629, 629, 630, 630, 630, 631, 631, 632, 632, 633, 634, 634, 635, ]
+( 0, 6 ) [629, 629, 629, 629, 630, 630, 630, 631, 631, 632, 632, 633, 633, 634, 635, 635, ]
+( 0, 7 ) [629, 629, 630, 630, 630, 630, 631, 631, 632, 632, 633, 633, 634, 634, 635, 636, ]
+( 0, 8 ) [630, 630, 630, 630, 630, 631, 631, 632, 632, 632, 633, 634, 634, 635, 636, 636, ]
+( 0, 9 ) [630, 630, 630, 631, 631, 631, 632, 632, 632, 633, 633, 634, 635, 635, 636, 637, ]
+( 0, 10 ) [631, 631, 631, 631, 631, 632, 632, 633, 633, 633, 634, 635, 635, 636, 637, 637, ]
+( 0, 11 ) [631, 631, 632, 632, 632, 632, 633, 633, 634, 634, 635, 635, 636, 636, 637, 638, ]
+( 0, 12 ) [632, 632, 632, 632, 633, 633, 633, 634, 634, 635, 635, 636, 636, 637, 638, 638, ]
+( 0, 13 ) [633, 633, 633, 633, 633, 634, 634, 634, 635, 635, 636, 636, 637, 638, 638, 639, ]
+( 0, 14 ) [633, 633, 634, 634, 634, 634, 635, 635, 636, 636, 637, 637, 638, 638, 639, 640, ]
+( 0, 15 ) [634, 634, 634, 635, 635, 635, 635, 636, 636, 637, 637, 638, 638, 639, 640, 641, ]
+
+ ==== (CG) Slave generates (obj:5502.23) with x = -19.3271 ==== 
+( 0, 0 ) [627, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, 633, 634, ]
+( 0, 1 ) [628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, 633, 634, ]
+( 0, 2 ) [628, 628, 628, 628, 629, 629, 629, 630, 630, 630, 631, 632, 632, 633, 634, 634, ]
+( 0, 3 ) [628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 632, 633, 634, 635, ]
+( 0, 4 ) [628, 628, 629, 629, 629, 629, 630, 630, 630, 631, 631, 632, 633, 633, 634, 635, ]
+( 0, 5 ) [629, 629, 629, 629, 629, 630, 630, 630, 631, 631, 632, 632, 633, 634, 634, 635, ]
+( 0, 6 ) [629, 629, 629, 629, 630, 630, 630, 631, 631, 632, 632, 633, 633, 634, 635, 635, ]
+( 0, 7 ) [629, 629, 630, 630, 630, 630, 631, 631, 632, 632, 633, 633, 634, 634, 635, 636, ]
+( 0, 8 ) [630, 630, 630, 630, 630, 631, 631, 632, 632, 632, 633, 634, 634, 635, 636, 636, ]
+( 0, 9 ) [630, 630, 630, 631, 631, 631, 632, 632, 632, 633, 633, 634, 635, 635, 636, 637, ]
+( 0, 10 ) [631, 631, 631, 631, 631, 632, 632, 633, 633, 633, 634, 635, 635, 636, 637, 637, ]
+( 0, 11 ) [631, 631, 632, 632, 632, 632, 633, 633, 634, 634, 635, 635, 636, 636, 637, 638, ]
+( 0, 12 ) [632, 632, 632, 632, 633, 633, 633, 634, 634, 635, 635, 636, 636, 637, 638, 638, ]
+( 0, 13 ) [633, 633, 633, 633, 633, 634, 634, 634, 635, 635, 636, 636, 637, 638, 638, 639, ]
+( 0, 14 ) [633, 633, 634, 634, 634, 634, 635, 635, 636, 636, 637, 637, 638, 638, 639, 640, ]
+( 0, 15 ) [634, 634, 634, 635, 635, 635, 635, 636, 636, 637, 637, 638, 638, 639, 640, 641, ]
+
+ ==== (CG) Slave generates (obj:5502.23) with x = -19.3271 ==== 
+( 0, 0 ) [627, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, 633, 634, ]
+( 0, 1 ) [628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, 633, 634, ]
+( 0, 2 ) [628, 628, 628, 628, 629, 629, 629, 630, 630, 630, 631, 632, 632, 633, 634, 634, ]
+( 0, 3 ) [628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 632, 633, 634, 635, ]
+( 0, 4 ) [628, 628, 629, 629, 629, 629, 630, 630, 630, 631, 631, 632, 633, 633, 634, 635, ]
+( 0, 5 ) [629, 629, 629, 629, 629, 630, 630, 630, 631, 631, 632, 632, 633, 634, 634, 635, ]
+( 0, 6 ) [629, 629, 629, 629, 630, 630, 630, 631, 631, 632, 632, 633, 633, 634, 635, 635, ]
+( 0, 7 ) [629, 629, 630, 630, 630, 630, 631, 631, 632, 632, 633, 633, 634, 634, 635, 636, ]
+( 0, 8 ) [630, 630, 630, 630, 630, 631, 631, 632, 632, 632, 633, 634, 634, 635, 636, 636, ]
+( 0, 9 ) [630, 630, 630, 631, 631, 631, 632, 632, 632, 633, 633, 634, 635, 635, 636, 637, ]
+( 0, 10 ) [631, 631, 631, 631, 631, 632, 632, 633, 633, 633, 634, 635, 635, 636, 637, 637, ]
+( 0, 11 ) [631, 631, 632, 632, 632, 632, 633, 633, 634, 634, 635, 635, 636, 636, 637, 638, ]
+( 0, 12 ) [632, 632, 632, 632, 633, 633, 633, 634, 634, 635, 635, 636, 636, 637, 638, 638, ]
+( 0, 13 ) [633, 633, 633, 633, 633, 634, 634, 634, 635, 635, 636, 636, 637, 638, 638, 639, ]
+( 0, 14 ) [633, 633, 634, 634, 634, 634, 635, 635, 636, 636, 637, 637, 638, 638, 639, 640, ]
+( 0, 15 ) [634, 634, 634, 635, 635, 635, 635, 636, 636, 637, 637, 638, 638, 639, 640, 641, ]
+
+ ==== (CG) Slave generates (obj:5502.23) with x = -19.3271 ==== 
+( 0, 0 ) [627, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, 633, 634, ]
+( 0, 1 ) [628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, 633, 634, ]
+( 0, 2 ) [628, 628, 628, 628, 629, 629, 629, 630, 630, 630, 631, 632, 632, 633, 634, 634, ]
+( 0, 3 ) [628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 632, 633, 634, 635, ]
+( 0, 4 ) [628, 628, 629, 629, 629, 629, 630, 630, 630, 631, 631, 632, 633, 633, 634, 635, ]
+( 0, 5 ) [629, 629, 629, 629, 629, 630, 630, 630, 631, 631, 632, 632, 633, 634, 634, 635, ]
+( 0, 6 ) [629, 629, 629, 629, 630, 630, 630, 631, 631, 632, 632, 633, 633, 634, 635, 635, ]
+( 0, 7 ) [629, 629, 630, 630, 630, 630, 631, 631, 632, 632, 633, 633, 634, 634, 635, 636, ]
+( 0, 8 ) [630, 630, 630, 630, 630, 631, 631, 632, 632, 632, 633, 634, 634, 635, 636, 636, ]
+( 0, 9 ) [630, 630, 630, 631, 631, 631, 632, 632, 632, 633, 633, 634, 635, 635, 636, 637, ]
+( 0, 10 ) [631, 631, 631, 631, 631, 632, 632, 633, 633, 633, 634, 635, 635, 636, 637, 637, ]
+( 0, 11 ) [631, 631, 632, 632, 632, 632, 633, 633, 634, 634, 635, 635, 636, 636, 637, 638, ]
+( 0, 12 ) [632, 632, 632, 632, 633, 633, 633, 634, 634, 635, 635, 636, 636, 637, 638, 638, ]
+( 0, 13 ) [633, 633, 633, 633, 633, 634, 634, 634, 635, 635, 636, 636, 637, 638, 638, 639, ]
+( 0, 14 ) [633, 633, 634, 634, 634, 634, 635, 635, 636, 636, 637, 637, 638, 638, 639, 640, ]
+( 0, 15 ) [634, 634, 634, 635, 635, 635, 635, 636, 636, 637, 637, 638, 638, 639, 640, 641, ]
+
+ ==== (CG) Slave generates (obj:2757.89) with x = -11.4026 ==== 
+( 0, 0 ) [627, 627, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, 633, ]
+( 0, 1 ) [627, 628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, 633, ]
+( 0, 2 ) [628, 628, 628, 628, 628, 628, 629, 629, 630, 630, 630, 631, 632, 632, 633, 634, ]
+( 0, 3 ) [628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 632, 633, 634, ]
+( 0, 4 ) [628, 628, 628, 628, 629, 629, 629, 630, 630, 630, 631, 631, 632, 633, 633, 634, ]
+( 0, 5 ) [628, 628, 628, 629, 629, 629, 629, 630, 630, 631, 631, 632, 632, 633, 634, 634, ]
+( 0, 6 ) [629, 629, 629, 629, 629, 629, 630, 630, 631, 631, 631, 632, 633, 633, 634, 635, ]
+( 0, 7 ) [629, 629, 629, 629, 630, 630, 630, 630, 631, 631, 632, 632, 633, 634, 634, 635, ]
+( 0, 8 ) [629, 629, 630, 630, 630, 630, 631, 631, 631, 632, 632, 633, 633, 634, 635, 635, ]
+( 0, 9 ) [630, 630, 630, 630, 630, 631, 631, 631, 632, 632, 633, 633, 634, 634, 635, 636, ]
+( 0, 10 ) [630, 630, 630, 631, 631, 631, 631, 632, 632, 633, 633, 634, 634, 635, 636, 636, ]
+( 0, 11 ) [631, 631, 631, 631, 631, 632, 632, 632, 633, 633, 634, 634, 635, 635, 636, 637, ]
+( 0, 12 ) [631, 631, 632, 632, 632, 632, 633, 633, 633, 634, 634, 635, 635, 636, 637, 637, ]
+( 0, 13 ) [632, 632, 632, 632, 633, 633, 633, 634, 634, 634, 635, 635, 636, 637, 637, 638, ]
+( 0, 14 ) [633, 633, 633, 633, 633, 634, 634, 634, 635, 635, 636, 636, 637, 637, 638, 639, ]
+( 0, 15 ) [633, 633, 634, 634, 634, 634, 635, 635, 635, 636, 636, 637, 637, 638, 639, 639, ]
+
+ ==== (CG) Slave generates (obj:2757.89) with x = -11.4026 ==== 
+( 0, 0 ) [627, 627, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, 633, ]
+( 0, 1 ) [627, 628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, 633, ]
+( 0, 2 ) [628, 628, 628, 628, 628, 628, 629, 629, 630, 630, 630, 631, 632, 632, 633, 634, ]
+( 0, 3 ) [628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 632, 633, 634, ]
+( 0, 4 ) [628, 628, 628, 628, 629, 629, 629, 630, 630, 630, 631, 631, 632, 633, 633, 634, ]
+( 0, 5 ) [628, 628, 628, 629, 629, 629, 629, 630, 630, 631, 631, 632, 632, 633, 634, 634, ]
+( 0, 6 ) [629, 629, 629, 629, 629, 629, 630, 630, 631, 631, 631, 632, 633, 633, 634, 635, ]
+( 0, 7 ) [629, 629, 629, 629, 630, 630, 630, 630, 631, 631, 632, 632, 633, 634, 634, 635, ]
+( 0, 8 ) [629, 629, 630, 630, 630, 630, 631, 631, 631, 632, 632, 633, 633, 634, 635, 635, ]
+( 0, 9 ) [630, 630, 630, 630, 630, 631, 631, 631, 632, 632, 633, 633, 634, 634, 635, 636, ]
+( 0, 10 ) [630, 630, 630, 631, 631, 631, 631, 632, 632, 633, 633, 634, 634, 635, 636, 636, ]
+( 0, 11 ) [631, 631, 631, 631, 631, 632, 632, 632, 633, 633, 634, 634, 635, 635, 636, 637, ]
+( 0, 12 ) [631, 631, 632, 632, 632, 632, 633, 633, 633, 634, 634, 635, 635, 636, 637, 637, ]
+( 0, 13 ) [632, 632, 632, 632, 633, 633, 633, 634, 634, 634, 635, 635, 636, 637, 637, 638, ]
+( 0, 14 ) [633, 633, 633, 633, 633, 634, 634, 634, 635, 635, 636, 636, 637, 637, 638, 639, ]
+( 0, 15 ) [633, 633, 634, 634, 634, 634, 635, 635, 635, 636, 636, 637, 637, 638, 639, 639, ]
+
+ ==== (CG) Slave generates (obj:2757.89) with x = -11.4026 ==== 
+( 0, 0 ) [627, 627, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, 633, ]
+( 0, 1 ) [627, 628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, 633, ]
+( 0, 2 ) [628, 628, 628, 628, 628, 628, 629, 629, 630, 630, 630, 631, 632, 632, 633, 634, ]
+( 0, 3 ) [628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 632, 633, 634, ]
+( 0, 4 ) [628, 628, 628, 628, 629, 629, 629, 630, 630, 630, 631, 631, 632, 633, 633, 634, ]
+( 0, 5 ) [628, 628, 628, 629, 629, 629, 629, 630, 630, 631, 631, 632, 632, 633, 634, 634, ]
+( 0, 6 ) [629, 629, 629, 629, 629, 629, 630, 630, 631, 631, 631, 632, 633, 633, 634, 635, ]
+( 0, 7 ) [629, 629, 629, 629, 630, 630, 630, 630, 631, 631, 632, 632, 633, 634, 634, 635, ]
+( 0, 8 ) [629, 629, 630, 630, 630, 630, 631, 631, 631, 632, 632, 633, 633, 634, 635, 635, ]
+( 0, 9 ) [630, 630, 630, 630, 630, 631, 631, 631, 632, 632, 633, 633, 634, 634, 635, 636, ]
+( 0, 10 ) [630, 630, 630, 631, 631, 631, 631, 632, 632, 633, 633, 634, 634, 635, 636, 636, ]
+( 0, 11 ) [631, 631, 631, 631, 631, 632, 632, 632, 633, 633, 634, 634, 635, 635, 636, 637, ]
+( 0, 12 ) [631, 631, 632, 632, 632, 632, 633, 633, 633, 634, 634, 635, 635, 636, 637, 637, ]
+( 0, 13 ) [632, 632, 632, 632, 633, 633, 633, 634, 634, 634, 635, 635, 636, 637, 637, 638, ]
+( 0, 14 ) [633, 633, 633, 633, 633, 634, 634, 634, 635, 635, 636, 636, 637, 637, 638, 639, ]
+( 0, 15 ) [633, 633, 634, 634, 634, 634, 635, 635, 635, 636, 636, 637, 637, 638, 639, 639, ]
+
+ ==== (CG) Slave generates (obj:2757.89) with x = -11.4026 ==== 
+( 0, 0 ) [627, 627, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, 633, ]
+( 0, 1 ) [627, 628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 633, 633, ]
+( 0, 2 ) [628, 628, 628, 628, 628, 628, 629, 629, 630, 630, 630, 631, 632, 632, 633, 634, ]
+( 0, 3 ) [628, 628, 628, 628, 628, 629, 629, 629, 630, 630, 631, 631, 632, 632, 633, 634, ]
+( 0, 4 ) [628, 628, 628, 628, 629, 629, 629, 630, 630, 630, 631, 631, 632, 633, 633, 634, ]
+( 0, 5 ) [628, 628, 628, 629, 629, 629, 629, 630, 630, 631, 631, 632, 632, 633, 634, 634, ]
+( 0, 6 ) [629, 629, 629, 629, 629, 629, 630, 630, 631, 631, 631, 632, 633, 633, 634, 635, ]
+( 0, 7 ) [629, 629, 629, 629, 630, 630, 630, 630, 631, 631, 632, 632, 633, 634, 634, 635, ]
+( 0, 8 ) [629, 629, 630, 630, 630, 630, 631, 631, 631, 632, 632, 633, 633, 634, 635, 635, ]
+( 0, 9 ) [630, 630, 630, 630, 630, 631, 631, 631, 632, 632, 633, 633, 634, 634, 635, 636, ]
+( 0, 10 ) [630, 630, 630, 631, 631, 631, 631, 632, 632, 633, 633, 634, 634, 635, 636, 636, ]
+( 0, 11 ) [631, 631, 631, 631, 631, 632, 632, 632, 633, 633, 634, 634, 635, 635, 636, 637, ]
+( 0, 12 ) [631, 631, 632, 632, 632, 632, 633, 633, 633, 634, 634, 635, 635, 636, 637, 637, ]
+( 0, 13 ) [632, 632, 632, 632, 633, 633, 633, 634, 634, 634, 635, 635, 636, 637, 637, 638, ]
+( 0, 14 ) [633, 633, 633, 633, 633, 634, 634, 634, 635, 635, 636, 636, 637, 637, 638, 639, ]
+( 0, 15 ) [633, 633, 634, 634, 634, 634, 635, 635, 635, 636, 636, 637, 637, 638, 639, 639, ]
+
+ ==== (CG) Running Master, iteration 6 ==== 
+Optimize a model with 142592 rows, 285218 columns and 372128 nonzeros
+Coefficient statistics:
+  Matrix range     [5e-02, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [7e-05, 1e+02]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.2852166e+05   0.000000e+00   7.326894e+03      0s
+ ==== (Output of slave 1) ====
+MIP start 4 produced solution with objective 2757.89 (0.49s)
+Loaded MIP start 4 with objective 2757.89
+Loaded MIP start 5 with objective 2757.89
+MIP start 6 produced solution with objective 5502.23 (0.73s)
+Loaded MIP start 6 with objective 5502.23
+Loaded MIP start 7 with objective 5502.23
+MIP start 8 did not produce a new incumbent solution
+MIP start 9 did not produce a new incumbent solution
+MIP start 10 did not produce a new incumbent solution
+MIP start 11 did not produce a new incumbent solution
+MIP start 12 did not produce a new incumbent solution
+MIP start 13 did not produce a new incumbent solution
+MIP start 14 did not produce a new incumbent solution
+MIP start 15 did not produce a new incumbent solution
+MIP start 16 did not produce a new incumbent solution
+MIP start 17 did not produce a new incumbent solution
+MIP start 18 did not produce a new incumbent solution
+MIP start 19 did not produce a new incumbent solution
+MIP start 20 produced solution with objective 6171 (2.87s)
+Loaded MIP start 20 with objective 6171
+MIP start 21 did not produce a new incumbent solution
+MIP start 22 produced solution with objective 17749.2 (3.12s)
+Loaded MIP start 22 with objective 17749.2
+MIP start 23 did not produce a new incumbent solution
+MIP start 24 did not produce a new incumbent solution
+MIP start 25 did not produce a new incumbent solution
+MIP start 26 did not produce a new incumbent solution
+MIP start 27 did not produce a new incumbent solution
+MIP start 28 did not produce a new incumbent solution
+MIP start 29 did not produce a new incumbent solution
+MIP start 30 did not produce a new incumbent solution
+ ==== (Output of slave 2) ====
+MIP start 255 did not produce a new incumbent solution
+MIP start 256 did not produce a new incumbent solution
+MIP start 257 did not produce a new incumbent solution
+MIP start 258 did not produce a new incumbent solution
+MIP start 259 did not produce a new incumbent solution
+MIP start 260 did not produce a new incumbent solution
+MIP start 261 did not produce a new incumbent solution
+MIP start 262 did not produce a new incumbent solution
+MIP start 263 did not produce a new incumbent solution
+MIP start 264 did not produce a new incumbent solution
+MIP start 265 did not produce a new incumbent solution
+MIP start 266 did not produce a new incumbent solution
+MIP start 267 did not produce a new incumbent solution
+MIP start 268 did not produce a new incumbent solution
+MIP start 269 did not produce a new incumbent solution
+MIP start 270 did not produce a new incumbent solution
+MIP start 271 did not produce a new incumbent solution
+MIP start 272 did not produce a new incumbent solution
+MIP start 273 did not produce a new incumbent solution
+MIP start 274 did not produce a new incumbent solution
+MIP start 275 did not produce a new incumbent solution
+MIP start 276 did not produce a new incumbent solution
+MIP start 277 did not produce a new incumbent solution
+MIP start 278 did not produce a new incumbent solution
+MIP start 279 did not produce a new incumbent solution
+MIP start 280 did not produce a new incumbent solution
+MIP start 281 did not produce a new incumbent solution
+MIP start 282 did not produce a new incumbent solution
+MIP start 283 did not produce a new incumbent solution
+ ==== (Output of slave 3) ====
+MIP start 133 did not produce a new incumbent solution
+MIP start 134 did not produce a new incumbent solution
+MIP start 135 did not produce a new incumbent solution
+MIP start 136 did not produce a new incumbent solution
+MIP start 137 did not produce a new incumbent solution
+MIP start 138 did not produce a new incumbent solution
+MIP start 139 did not produce a new incumbent solution
+MIP start 140 did not produce a new incumbent solution
+MIP start 141 did not produce a new incumbent solution
+MIP start 142 did not produce a new incumbent solution
+MIP start 143 did not produce a new incumbent solution
+MIP start 144 did not produce a new incumbent solution
+MIP start 145 did not produce a new incumbent solution
+MIP start 146 did not produce a new incumbent solution
+MIP start 147 did not produce a new incumbent solution
+MIP start 148 did not produce a new incumbent solution
+MIP start 149 did not produce a new incumbent solution
+MIP start 150 did not produce a new incumbent solution
+MIP start 151 did not produce a new incumbent solution
+MIP start 152 did not produce a new incumbent solution
+MIP start 153 did not produce a new incumbent solution
+MIP start 154 did not produce a new incumbent solution
+MIP start 155 did not produce a new incumbent solution
+MIP start 156 did not produce a new incumbent solution
+MIP start 157 did not produce a new incumbent solution
+MIP start 158 did not produce a new incumbent solution
+MIP start 159 did not produce a new incumbent solution
+MIP start 160 did not produce a new incumbent solution
+MIP start 161 did not produce a new incumbent solution
+ ==== (Output of slave 4) ====
+MIP start 35 did not produce a new incumbent solution
+MIP start 36 did not produce a new incumbent solution
+MIP start 37 did not produce a new incumbent solution
+MIP start 38 did not produce a new incumbent solution
+MIP start 39 did not produce a new incumbent solution
+MIP start 40 did not produce a new incumbent solution
+MIP start 41 did not produce a new incumbent solution
+MIP start 42 did not produce a new incumbent solution
+MIP start 43 did not produce a new incumbent solution
+MIP start 44 produced solution with objective 42094.9 (4.50s)
+Loaded MIP start 44 with objective 42094.9
+MIP start 45 did not produce a new incumbent solution
+MIP start 46 did not produce a new incumbent solution
+MIP start 47 did not produce a new incumbent solution
+MIP start 48 did not produce a new incumbent solution
+MIP start 49 did not produce a new incumbent solution
+MIP start 50 did not produce a new incumbent solution
+MIP start 51 did not produce a new incumbent solution
+MIP start 52 did not produce a new incumbent solution
+MIP start 53 did not produce a new incumbent solution
+MIP start 54 did not produce a new incumbent solution
+MIP start 55 did not produce a new incumbent solution
+MIP start 56 did not produce a new incumbent solution
+MIP start 57 did not produce a new incumbent solution
+MIP start 58 did not produce a new incumbent solution
+MIP start 59 did not produce a new incumbent solution
+MIP start 60 did not produce a new incumbent solution
+MIP start 61 did not produce a new incumbent solution
+MIP start 62 did not produce a new incumbent solution
+    1162    1.2643634e+05   0.000000e+00   0.000000e+00      5s
+
+Solved in 1162 iterations and 4.59 seconds
+Optimal objective  1.264363359e+05
+ ==== (CG) Master Objective : 126436.335855 ==== 
+ ==== (CG) Running Slave, iteration 7 ==== 
+ ==== (CG) Slave generates (obj:17749.2) with x = 54.5963 ==== 
+( 0, 0 ) [132, 130, 129, 128, 127, 126, 126, 126, 126, 126, 127, 127, 128, 129, 131, 132, ]
+( 0, 1 ) [130, 129, 128, 127, 126, 125, 125, 124, 124, 125, 125, 126, 127, 128, 129, 131, ]
+( 0, 2 ) [129, 128, 126, 125, 124, 124, 123, 123, 123, 123, 124, 125, 125, 127, 128, 130, ]
+( 0, 3 ) [128, 127, 125, 124, 123, 123, 122, 122, 122, 122, 123, 123, 124, 126, 127, 128, ]
+( 0, 4 ) [127, 126, 124, 123, 122, 122, 121, 121, 121, 121, 122, 123, 123, 125, 126, 128, ]
+( 0, 5 ) [126, 125, 124, 123, 122, 121, 121, 120, 120, 121, 121, 122, 123, 124, 125, 127, ]
+( 0, 6 ) [126, 125, 123, 122, 121, 121, 120, 120, 120, 120, 121, 121, 122, 123, 125, 126, ]
+( 0, 7 ) [126, 124, 123, 122, 121, 120, 120, 120, 120, 120, 120, 121, 122, 123, 125, 126, ]
+( 0, 8 ) [126, 124, 123, 122, 121, 120, 120, 120, 120, 120, 120, 121, 122, 123, 125, 126, ]
+( 0, 9 ) [126, 125, 123, 122, 121, 121, 120, 120, 120, 120, 121, 121, 122, 124, 125, 126, ]
+( 0, 10 ) [127, 125, 124, 123, 122, 121, 121, 120, 120, 121, 121, 122, 123, 124, 125, 127, ]
+( 0, 11 ) [127, 126, 125, 123, 123, 122, 121, 121, 121, 121, 122, 123, 124, 125, 126, 128, ]
+( 0, 12 ) [128, 127, 125, 124, 123, 123, 122, 122, 122, 122, 123, 124, 125, 126, 127, 129, ]
+( 0, 13 ) [129, 128, 127, 126, 125, 124, 123, 123, 123, 124, 124, 125, 126, 127, 128, 130, ]
+( 0, 14 ) [131, 129, 128, 127, 126, 125, 125, 125, 125, 125, 125, 126, 127, 128, 130, 131, ]
+( 0, 15 ) [132, 131, 130, 128, 128, 127, 126, 126, 126, 126, 127, 128, 129, 130, 131, 133, ]
+
+ ==== (CG) Slave generates (obj:17749.2) with x = 54.5963 ==== 
+( 0, 0 ) [132, 130, 129, 128, 127, 126, 126, 126, 126, 126, 127, 127, 128, 129, 131, 132, ]
+( 0, 1 ) [130, 129, 128, 127, 126, 125, 125, 124, 124, 125, 125, 126, 127, 128, 129, 131, ]
+( 0, 2 ) [129, 128, 126, 125, 124, 124, 123, 123, 123, 123, 124, 125, 125, 127, 128, 130, ]
+( 0, 3 ) [128, 127, 125, 124, 123, 123, 122, 122, 122, 122, 123, 123, 124, 126, 127, 128, ]
+( 0, 4 ) [127, 126, 124, 123, 122, 122, 121, 121, 121, 121, 122, 123, 123, 125, 126, 128, ]
+( 0, 5 ) [126, 125, 124, 123, 122, 121, 121, 120, 120, 121, 121, 122, 123, 124, 125, 127, ]
+( 0, 6 ) [126, 125, 123, 122, 121, 121, 120, 120, 120, 120, 121, 121, 122, 123, 125, 126, ]
+( 0, 7 ) [126, 124, 123, 122, 121, 120, 120, 120, 120, 120, 120, 121, 122, 123, 125, 126, ]
+( 0, 8 ) [126, 124, 123, 122, 121, 120, 120, 120, 120, 120, 120, 121, 122, 123, 125, 126, ]
+( 0, 9 ) [126, 125, 123, 122, 121, 121, 120, 120, 120, 120, 121, 121, 122, 124, 125, 126, ]
+( 0, 10 ) [127, 125, 124, 123, 122, 121, 121, 120, 120, 121, 121, 122, 123, 124, 125, 127, ]
+( 0, 11 ) [127, 126, 125, 123, 123, 122, 121, 121, 121, 121, 122, 123, 124, 125, 126, 128, ]
+( 0, 12 ) [128, 127, 125, 124, 123, 123, 122, 122, 122, 122, 123, 124, 125, 126, 127, 129, ]
+( 0, 13 ) [129, 128, 127, 126, 125, 124, 123, 123, 123, 124, 124, 125, 126, 127, 128, 130, ]
+( 0, 14 ) [131, 129, 128, 127, 126, 125, 125, 125, 125, 125, 125, 126, 127, 128, 130, 131, ]
+( 0, 15 ) [132, 131, 130, 128, 128, 127, 126, 126, 126, 126, 127, 128, 129, 130, 131, 133, ]
+
+ ==== (CG) Slave generates (obj:6171) with x = 65.1974 ==== 
+( 0, 0 ) [631, 630, 630, 630, 630, 629, 629, 629, 629, 629, 629, 629, 629, 629, 630, 630, ]
+( 0, 1 ) [630, 630, 630, 629, 629, 629, 629, 629, 629, 629, 629, 629, 629, 629, 629, 629, ]
+( 0, 2 ) [630, 630, 629, 629, 629, 629, 628, 628, 628, 628, 628, 628, 629, 629, 629, 629, ]
+( 0, 3 ) [630, 629, 629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 629, 629, ]
+( 0, 4 ) [630, 629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 629, ]
+( 0, 5 ) [629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, ]
+( 0, 6 ) [629, 629, 628, 628, 628, 628, 628, 628, 627, 627, 627, 628, 628, 628, 628, 628, ]
+( 0, 7 ) [629, 629, 628, 628, 628, 628, 628, 627, 627, 627, 627, 627, 628, 628, 628, 628, ]
+( 0, 8 ) [629, 629, 628, 628, 628, 628, 627, 627, 627, 627, 627, 627, 627, 628, 628, 628, ]
+( 0, 9 ) [629, 629, 628, 628, 628, 628, 627, 627, 627, 627, 627, 627, 627, 628, 628, 628, ]
+( 0, 10 ) [629, 629, 628, 628, 628, 628, 627, 627, 627, 627, 627, 627, 627, 628, 628, 628, ]
+( 0, 11 ) [629, 629, 628, 628, 628, 628, 628, 627, 627, 627, 627, 627, 628, 628, 628, 628, ]
+( 0, 12 ) [629, 629, 629, 628, 628, 628, 628, 628, 627, 627, 627, 628, 628, 628, 628, 628, ]
+( 0, 13 ) [629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, ]
+( 0, 14 ) [630, 629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 629, ]
+( 0, 15 ) [630, 629, 629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 629, 629, ]
+
+ ==== (CG) Slave generates (obj:6171) with x = 65.1974 ==== 
+( 0, 0 ) [631, 630, 630, 630, 630, 629, 629, 629, 629, 629, 629, 629, 629, 629, 630, 630, ]
+( 0, 1 ) [630, 630, 630, 629, 629, 629, 629, 629, 629, 629, 629, 629, 629, 629, 629, 629, ]
+( 0, 2 ) [630, 630, 629, 629, 629, 629, 628, 628, 628, 628, 628, 628, 629, 629, 629, 629, ]
+( 0, 3 ) [630, 629, 629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 629, 629, ]
+( 0, 4 ) [630, 629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 629, ]
+( 0, 5 ) [629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, ]
+( 0, 6 ) [629, 629, 628, 628, 628, 628, 628, 628, 627, 627, 627, 628, 628, 628, 628, 628, ]
+( 0, 7 ) [629, 629, 628, 628, 628, 628, 628, 627, 627, 627, 627, 627, 628, 628, 628, 628, ]
+( 0, 8 ) [629, 629, 628, 628, 628, 628, 627, 627, 627, 627, 627, 627, 627, 628, 628, 628, ]
+( 0, 9 ) [629, 629, 628, 628, 628, 628, 627, 627, 627, 627, 627, 627, 627, 628, 628, 628, ]
+( 0, 10 ) [629, 629, 628, 628, 628, 628, 627, 627, 627, 627, 627, 627, 627, 628, 628, 628, ]
+( 0, 11 ) [629, 629, 628, 628, 628, 628, 628, 627, 627, 627, 627, 627, 628, 628, 628, 628, ]
+( 0, 12 ) [629, 629, 629, 628, 628, 628, 628, 628, 627, 627, 627, 628, 628, 628, 628, 628, ]
+( 0, 13 ) [629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, ]
+( 0, 14 ) [630, 629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 628, 629, ]
+( 0, 15 ) [630, 629, 629, 629, 629, 628, 628, 628, 628, 628, 628, 628, 628, 628, 629, 629, ]
+
+ ==== (CG) Running Master, iteration 7 ==== 
+Optimize a model with 142592 rows, 285222 columns and 382368 nonzeros
+Coefficient statistics:
+  Matrix range     [5e-02, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [7e-05, 1e+02]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.2643634e+05   0.000000e+00   2.826170e+03      0s
+ ==== (Output of slave 1) ====
+MIP start 31 did not produce a new incumbent solution
+MIP start 32 did not produce a new incumbent solution
+MIP start 33 did not produce a new incumbent solution
+MIP start 34 did not produce a new incumbent solution
+MIP start 35 did not produce a new incumbent solution
+MIP start 36 did not produce a new incumbent solution
+MIP start 37 did not produce a new incumbent solution
+MIP start 38 did not produce a new incumbent solution
+MIP start 39 did not produce a new incumbent solution
+MIP start 40 did not produce a new incumbent solution
+MIP start 41 did not produce a new incumbent solution
+MIP start 42 did not produce a new incumbent solution
+MIP start 43 did not produce a new incumbent solution
+MIP start 44 did not produce a new incumbent solution
+MIP start 45 did not produce a new incumbent solution
+MIP start 46 did not produce a new incumbent solution
+MIP start 47 did not produce a new incumbent solution
+MIP start 48 did not produce a new incumbent solution
+MIP start 49 did not produce a new incumbent solution
+MIP start 50 did not produce a new incumbent solution
+MIP start 51 did not produce a new incumbent solution
+MIP start 52 did not produce a new incumbent solution
+MIP start 53 did not produce a new incumbent solution
+MIP start 54 did not produce a new incumbent solution
+MIP start 55 did not produce a new incumbent solution
+MIP start 56 did not produce a new incumbent solution
+MIP start 57 did not produce a new incumbent solution
+MIP start 58 did not produce a new incumbent solution
+ ==== (Output of slave 2) ====
+MIP start 284 did not produce a new incumbent solution
+MIP start 285 did not produce a new incumbent solution
+MIP start 286 did not produce a new incumbent solution
+MIP start 287 did not produce a new incumbent solution
+MIP start 288 did not produce a new incumbent solution
+MIP start 289 did not produce a new incumbent solution
+MIP start 290 did not produce a new incumbent solution
+MIP start 291 did not produce a new incumbent solution
+MIP start 292 did not produce a new incumbent solution
+MIP start 293 did not produce a new incumbent solution
+MIP start 294 did not produce a new incumbent solution
+MIP start 295 did not produce a new incumbent solution
+
+Presolve removed 135 rows and 135 columns
+Presolve time: 0.82s
+Presolved: 442 rows, 75770 columns, 245385 nonzeros
+Variable types: 18 continuous, 75752 integer (75752 binary)
+
+Explored 0 nodes (0 simplex iterations) in 29.82 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 85157 73788.3 5865.35 
+
+Optimization achieved user objective limit
+Best objective 8.515701112762e+04, best bound 2.025222616698e+06, gap 2278.2218%
+ ==== (Output of slave 3) ====
+MIP start 162 did not produce a new incumbent solution
+MIP start 163 did not produce a new incumbent solution
+MIP start 164 did not produce a new incumbent solution
+MIP start 165 did not produce a new incumbent solution
+MIP start 166 did not produce a new incumbent solution
+MIP start 167 did not produce a new incumbent solution
+MIP start 168 did not produce a new incumbent solution
+MIP start 169 did not produce a new incumbent solution
+MIP start 170 did not produce a new incumbent solution
+MIP start 171 did not produce a new incumbent solution
+MIP start 172 did not produce a new incumbent solution
+MIP start 173 did not produce a new incumbent solution
+MIP start 174 did not produce a new incumbent solution
+MIP start 175 did not produce a new incumbent solution
+MIP start 176 did not produce a new incumbent solution
+MIP start 177 did not produce a new incumbent solution
+MIP start 178 did not produce a new incumbent solution
+MIP start 179 did not produce a new incumbent solution
+MIP start 180 did not produce a new incumbent solution
+MIP start 181 did not produce a new incumbent solution
+MIP start 182 did not produce a new incumbent solution
+MIP start 183 did not produce a new incumbent solution
+MIP start 184 did not produce a new incumbent solution
+MIP start 185 did not produce a new incumbent solution
+MIP start 186 did not produce a new incumbent solution
+MIP start 187 did not produce a new incumbent solution
+MIP start 188 did not produce a new incumbent solution
+MIP start 189 did not produce a new incumbent solution
+MIP start 190 did not produce a new incumbent solution
+MIP start 191 did not produce a new incumbent solution
+MIP start 192 did not produce a new incumbent solution
+MIP start 193 did not produce a new incumbent solution
+ ==== (Output of slave 4) ====
+MIP start 63 did not produce a new incumbent solution
+MIP start 64 did not produce a new incumbent solution
+MIP start 65 did not produce a new incumbent solution
+MIP start 66 did not produce a new incumbent solution
+MIP start 67 did not produce a new incumbent solution
+MIP start 68 did not produce a new incumbent solution
+MIP start 69 did not produce a new incumbent solution
+MIP start 70 did not produce a new incumbent solution
+MIP start 71 did not produce a new incumbent solution
+MIP start 72 did not produce a new incumbent solution
+MIP start 73 did not produce a new incumbent solution
+MIP start 74 did not produce a new incumbent solution
+MIP start 75 did not produce a new incumbent solution
+MIP start 76 did not produce a new incumbent solution
+MIP start 77 did not produce a new incumbent solution
+MIP start 78 did not produce a new incumbent solution
+MIP start 79 did not produce a new incumbent solution
+MIP start 80 did not produce a new incumbent solution
+MIP start 81 did not produce a new incumbent solution
+MIP start 82 did not produce a new incumbent solution
+MIP start 83 did not produce a new incumbent solution
+MIP start 84 did not produce a new incumbent solution
+MIP start 85 did not produce a new incumbent solution
+MIP start 86 did not produce a new incumbent solution
+MIP start 87 did not produce a new incumbent solution
+MIP start 88 did not produce a new incumbent solution
+MIP start 89 did not produce a new incumbent solution
+MIP start 90 did not produce a new incumbent solution
+MIP start 91 did not produce a new incumbent solution
+MIP start 92 did not produce a new incumbent solution
+MIP start 93 did not produce a new incumbent solution
+     561    1.2632514e+05   0.000000e+00   0.000000e+00      2s
+
+Solved in 561 iterations and 1.72 seconds
+Optimal objective  1.263251413e+05
+ ==== (CG) Master Objective : 126325.141324 ==== 
+ ==== (CG) Running Slave, iteration 8 ==== 
+ ==== Current Pool-statistics :6/38 old-slave-constraints separated master and actual size :0 ====
+ ==== (Output of slave 1) ====
+MIP start 59 did not produce a new incumbent solution
+MIP start 60 did not produce a new incumbent solution
+ ==== (Output of slave 2) ====
+Optimize a model with 577 rows, 75905 columns and 245793 nonzeros
+Variable types: 153 continuous, 75752 integer (75752 binary)
+
+ ==== (Output of slave 3) ====
+MIP start 194 did not produce a new incumbent solution
+MIP start 195 did not produce a new incumbent solution
+ ==== (Output of slave 4) ====
+MIP start 94 did not produce a new incumbent solution
+MIP start 95 did not produce a new incumbent solution
+ ==== (Output of slave 1) ====
+MIP start 61 did not produce a new incumbent solution
+MIP start 62 did not produce a new incumbent solution
+MIP start 63 did not produce a new incumbent solution
+MIP start 64 did not produce a new incumbent solution
+MIP start 65 did not produce a new incumbent solution
+MIP start 66 did not produce a new incumbent solution
+MIP start 67 did not produce a new incumbent solution
+MIP start 68 did not produce a new incumbent solution
+MIP start 69 did not produce a new incumbent solution
+MIP start 70 did not produce a new incumbent solution
+MIP start 71 did not produce a new incumbent solution
+MIP start 72 did not produce a new incumbent solution
+MIP start 73 did not produce a new incumbent solution
+MIP start 74 did not produce a new incumbent solution
+MIP start 75 did not produce a new incumbent solution
+ ==== (Output of slave 2) ====
+MIP start 0 produced solution with objective -334.515 (0.20s)
+Loaded MIP start 0 with objective -334.515
+MIP start 1 produced solution with objective 4.03588e-12 (0.31s)
+Loaded MIP start 1 with objective 7.50333e-12
+MIP start 2 produced solution with objective 7885.9 (0.42s)
+Loaded MIP start 2 with objective 7885.9
+MIP start 3 did not produce a new incumbent solution
+MIP start 4 produced solution with objective 11663.2 (0.68s)
+Loaded MIP start 4 with objective 11663.2
+MIP start 5 did not produce a new incumbent solution
+MIP start 6 did not produce a new incumbent solution
+MIP start 7 did not produce a new incumbent solution
+MIP start 8 did not produce a new incumbent solution
+MIP start 9 did not produce a new incumbent solution
+MIP start 10 did not produce a new incumbent solution
+MIP start 11 did not produce a new incumbent solution
+MIP start 12 did not produce a new incumbent solution
+MIP start 13 did not produce a new incumbent solution
+ ==== (Output of slave 3) ====
+MIP start 196 did not produce a new incumbent solution
+MIP start 197 did not produce a new incumbent solution
+MIP start 198 did not produce a new incumbent solution
+MIP start 199 did not produce a new incumbent solution
+MIP start 200 did not produce a new incumbent solution
+MIP start 201 did not produce a new incumbent solution
+MIP start 202 did not produce a new incumbent solution
+MIP start 203 did not produce a new incumbent solution
+MIP start 204 did not produce a new incumbent solution
+MIP start 205 did not produce a new incumbent solution
+MIP start 206 did not produce a new incumbent solution
+MIP start 207 did not produce a new incumbent solution
+MIP start 208 did not produce a new incumbent solution
+MIP start 209 did not produce a new incumbent solution
+MIP start 210 did not produce a new incumbent solution
+ ==== (Output of slave 4) ====
+MIP start 96 did not produce a new incumbent solution
+MIP start 97 did not produce a new incumbent solution
+MIP start 98 did not produce a new incumbent solution
+MIP start 99 did not produce a new incumbent solution
+MIP start 100 did not produce a new incumbent solution
+MIP start 101 did not produce a new incumbent solution
+MIP start 102 did not produce a new incumbent solution
+MIP start 103 did not produce a new incumbent solution
+MIP start 104 did not produce a new incumbent solution
+MIP start 105 did not produce a new incumbent solution
+MIP start 106 did not produce a new incumbent solution
+MIP start 107 did not produce a new incumbent solution
+MIP start 108 did not produce a new incumbent solution
+MIP start 109 did not produce a new incumbent solution
+MIP start 110 did not produce a new incumbent solution
+MIP start 111 did not produce a new incumbent solution
+ ==== (CG) Slave generates (obj:11663.2) with x = 109.762 ==== 
+( 0, 0 ) [159, 156, 154, 151, 150, 147, 145, 144, 142, 141, 139, 139, 138, 137, 137, 137, ]
+( 0, 1 ) [156, 154, 151, 149, 147, 145, 142, 141, 140, 138, 137, 136, 135, 134, 135, 135, ]
+( 0, 2 ) [154, 151, 149, 147, 145, 142, 140, 139, 137, 135, 135, 133, 132, 132, 132, 132, ]
+( 0, 3 ) [151, 149, 147, 144, 142, 140, 138, 136, 135, 133, 132, 131, 130, 129, 129, 129, ]
+( 0, 4 ) [150, 147, 145, 142, 140, 137, 135, 134, 132, 131, 130, 129, 128, 127, 128, 127, ]
+( 0, 5 ) [147, 145, 142, 140, 137, 135, 133, 131, 130, 129, 127, 127, 126, 125, 125, 125, ]
+( 0, 6 ) [145, 142, 140, 138, 135, 133, 131, 129, 128, 126, 125, 125, 123, 123, 123, 123, ]
+( 0, 7 ) [144, 141, 139, 136, 134, 131, 129, 128, 126, 125, 124, 123, 122, 121, 122, 122, ]
+( 0, 8 ) [142, 140, 137, 135, 132, 130, 128, 126, 125, 124, 122, 121, 121, 120, 120, 120, ]
+( 0, 9 ) [141, 138, 135, 133, 131, 129, 126, 125, 124, 122, 121, 120, 119, 118, 119, 119, ]
+( 0, 10 ) [139, 137, 135, 132, 130, 127, 125, 124, 122, 121, 120, 119, 118, 118, 118, 117, ]
+( 0, 11 ) [139, 136, 133, 131, 129, 127, 125, 123, 121, 120, 119, 118, 117, 116, 116, 116, ]
+( 0, 12 ) [138, 135, 132, 130, 128, 126, 123, 122, 121, 119, 118, 117, 116, 115, 115, 115, ]
+( 0, 13 ) [137, 134, 132, 129, 127, 125, 123, 121, 120, 118, 118, 116, 115, 115, 115, 115, ]
+( 0, 14 ) [137, 135, 132, 129, 128, 125, 123, 122, 120, 119, 118, 116, 115, 115, 115, 115, ]
+( 0, 15 ) [137, 135, 132, 129, 127, 125, 123, 122, 120, 119, 117, 116, 115, 115, 115, 115, ]
+
+ ==== (CG) Slave generates (obj:11663.2) with x = 109.762 ==== 
+( 0, 0 ) [159, 156, 154, 151, 150, 147, 145, 144, 142, 141, 139, 139, 138, 137, 137, 137, ]
+( 0, 1 ) [156, 154, 151, 149, 147, 145, 142, 141, 140, 138, 137, 136, 135, 134, 135, 135, ]
+( 0, 2 ) [154, 151, 149, 147, 145, 142, 140, 139, 137, 135, 135, 133, 132, 132, 132, 132, ]
+( 0, 3 ) [151, 149, 147, 144, 142, 140, 138, 136, 135, 133, 132, 131, 130, 129, 129, 129, ]
+( 0, 4 ) [150, 147, 145, 142, 140, 137, 135, 134, 132, 131, 130, 129, 128, 127, 128, 127, ]
+( 0, 5 ) [147, 145, 142, 140, 137, 135, 133, 131, 130, 129, 127, 127, 126, 125, 125, 125, ]
+( 0, 6 ) [145, 142, 140, 138, 135, 133, 131, 129, 128, 126, 125, 125, 123, 123, 123, 123, ]
+( 0, 7 ) [144, 141, 139, 136, 134, 131, 129, 128, 126, 125, 124, 123, 122, 121, 122, 122, ]
+( 0, 8 ) [142, 140, 137, 135, 132, 130, 128, 126, 125, 124, 122, 121, 121, 120, 120, 120, ]
+( 0, 9 ) [141, 138, 135, 133, 131, 129, 126, 125, 124, 122, 121, 120, 119, 118, 119, 119, ]
+( 0, 10 ) [139, 137, 135, 132, 130, 127, 125, 124, 122, 121, 120, 119, 118, 118, 118, 117, ]
+( 0, 11 ) [139, 136, 133, 131, 129, 127, 125, 123, 121, 120, 119, 118, 117, 116, 116, 116, ]
+( 0, 12 ) [138, 135, 132, 130, 128, 126, 123, 122, 121, 119, 118, 117, 116, 115, 115, 115, ]
+( 0, 13 ) [137, 134, 132, 129, 127, 125, 123, 121, 120, 118, 118, 116, 115, 115, 115, 115, ]
+( 0, 14 ) [137, 135, 132, 129, 128, 125, 123, 122, 120, 119, 118, 116, 115, 115, 115, 115, ]
+( 0, 15 ) [137, 135, 132, 129, 127, 125, 123, 122, 120, 119, 117, 116, 115, 115, 115, 115, ]
+
+ ==== (CG) Slave generates (obj:7885.9) with x = 43.0673 ==== 
+( 0, 0 ) [134, 133, 132, 131, 131, 131, 130, 130, 131, 132, 133, 133, 134, 136, 137, 140, ]
+( 0, 1 ) [133, 132, 131, 131, 130, 129, 129, 129, 130, 131, 132, 132, 133, 135, 136, 139, ]
+( 0, 2 ) [132, 131, 130, 129, 129, 128, 128, 129, 129, 130, 131, 131, 132, 134, 135, 138, ]
+( 0, 3 ) [131, 131, 129, 129, 128, 128, 128, 128, 128, 129, 130, 131, 132, 133, 135, 137, ]
+( 0, 4 ) [131, 130, 129, 128, 128, 127, 127, 127, 128, 129, 130, 130, 131, 133, 134, 137, ]
+( 0, 5 ) [131, 129, 128, 128, 127, 127, 127, 127, 128, 128, 129, 130, 131, 132, 134, 136, ]
+( 0, 6 ) [130, 129, 128, 128, 127, 127, 127, 127, 128, 128, 129, 130, 131, 132, 134, 136, ]
+( 0, 7 ) [130, 129, 129, 128, 127, 127, 127, 127, 128, 128, 129, 130, 131, 133, 134, 136, ]
+( 0, 8 ) [131, 130, 129, 128, 128, 128, 128, 128, 128, 129, 130, 130, 131, 133, 135, 137, ]
+( 0, 9 ) [132, 131, 130, 129, 129, 128, 128, 128, 129, 129, 130, 131, 132, 133, 135, 137, ]
+( 0, 10 ) [133, 132, 131, 130, 130, 129, 129, 129, 130, 130, 131, 132, 133, 134, 136, 138, ]
+( 0, 11 ) [133, 132, 131, 131, 130, 130, 130, 130, 130, 131, 132, 133, 134, 135, 137, 139, ]
+( 0, 12 ) [134, 133, 132, 132, 131, 131, 131, 131, 131, 132, 133, 134, 135, 137, 138, 140, ]
+( 0, 13 ) [136, 135, 134, 133, 133, 132, 132, 133, 133, 133, 134, 135, 137, 138, 139, 142, ]
+( 0, 14 ) [137, 136, 135, 135, 134, 134, 134, 134, 135, 135, 136, 137, 138, 139, 141, 143, ]
+( 0, 15 ) [140, 139, 138, 137, 137, 136, 136, 136, 137, 137, 138, 139, 140, 142, 143, 145, ]
+
+ ==== (CG) Slave generates (obj:7885.9) with x = 43.0673 ==== 
+( 0, 0 ) [134, 133, 132, 131, 131, 131, 130, 130, 131, 132, 133, 133, 134, 136, 137, 140, ]
+( 0, 1 ) [133, 132, 131, 131, 130, 129, 129, 129, 130, 131, 132, 132, 133, 135, 136, 139, ]
+( 0, 2 ) [132, 131, 130, 129, 129, 128, 128, 129, 129, 130, 131, 131, 132, 134, 135, 138, ]
+( 0, 3 ) [131, 131, 129, 129, 128, 128, 128, 128, 128, 129, 130, 131, 132, 133, 135, 137, ]
+( 0, 4 ) [131, 130, 129, 128, 128, 127, 127, 127, 128, 129, 130, 130, 131, 133, 134, 137, ]
+( 0, 5 ) [131, 129, 128, 128, 127, 127, 127, 127, 128, 128, 129, 130, 131, 132, 134, 136, ]
+( 0, 6 ) [130, 129, 128, 128, 127, 127, 127, 127, 128, 128, 129, 130, 131, 132, 134, 136, ]
+( 0, 7 ) [130, 129, 129, 128, 127, 127, 127, 127, 128, 128, 129, 130, 131, 133, 134, 136, ]
+( 0, 8 ) [131, 130, 129, 128, 128, 128, 128, 128, 128, 129, 130, 130, 131, 133, 135, 137, ]
+( 0, 9 ) [132, 131, 130, 129, 129, 128, 128, 128, 129, 129, 130, 131, 132, 133, 135, 137, ]
+( 0, 10 ) [133, 132, 131, 130, 130, 129, 129, 129, 130, 130, 131, 132, 133, 134, 136, 138, ]
+( 0, 11 ) [133, 132, 131, 131, 130, 130, 130, 130, 130, 131, 132, 133, 134, 135, 137, 139, ]
+( 0, 12 ) [134, 133, 132, 132, 131, 131, 131, 131, 131, 132, 133, 134, 135, 137, 138, 140, ]
+( 0, 13 ) [136, 135, 134, 133, 133, 132, 132, 133, 133, 133, 134, 135, 137, 138, 139, 142, ]
+( 0, 14 ) [137, 136, 135, 135, 134, 134, 134, 134, 135, 135, 136, 137, 138, 139, 141, 143, ]
+( 0, 15 ) [140, 139, 138, 137, 137, 136, 136, 136, 137, 137, 138, 139, 140, 142, 143, 145, ]
+
+ ==== (CG) Running Master, iteration 8 ==== 
+Optimize a model with 142592 rows, 285226 columns and 392608 nonzeros
+Coefficient statistics:
+  Matrix range     [5e-02, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [7e-05, 1e+02]
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.2632514e+05   0.000000e+00   2.443637e+03      0s
+     350    1.2632166e+05   0.000000e+00   0.000000e+00      2s
+
+Solved in 350 iterations and 2.20 seconds
+Optimal objective  1.263216568e+05
+ ==== (CG) Master Objective : 126321.656807 ==== 
+ ==== (CG) Running Slave, iteration 9 ==== 

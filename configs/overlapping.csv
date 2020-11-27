@@ -1,0 +1,2 @@
+#measurement_file;reference_file;max_columns;x_position;pitch;sampling_rate;wave_speed;elements;wave_length;slave_threshold;samples;reference_samples;verbose;output;slavestop;offset
+./data/simulated/overlapping/data.bin;./data/simulated/overlapping/ref_signal.csv;11;0;1.2e-3;20e6;6350;16;0.00127;5;1149;64;true;overlapping/log;100;162;

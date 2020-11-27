@@ -1,0 +1,2 @@
+#depth 10, 4x4
+./data/simulated/one_reflector_multiple_heights/4x4_10_fmc.bin;./data/simulated/one_reflector_multiple_heights/reference_signal.csv;500;44e-3;1.2e-3;20e6;6350;4;0.00127;5;620;64;true;4x4_one_reflector_multiple_heights/10_fmc.log;10000;36;

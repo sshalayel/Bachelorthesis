@@ -1,0 +1,5 @@
+
+==== (CURRENT TIME) ==== 2019-12-22T12:42:56.034302
+Running 400 columns, saft set to 1, slavestop is None on ./tangent_steps/2019-12-22-12:42:56+01:00-2eac1ad4e793487f9b6ef18a9cf9c5987d1d78da/50_ormh.csv_downsampled_32.csv_log, extra args is  :
+Executing ,,./tangent_steps/2019-12-22-12:42:56+01:00-2eac1ad4e793487f9b6ef18a9cf9c5987d1d78da/EXEC -C configs/50_ormh.csv_downsampled_32.csv  --max_columns 400 --saft 1 -o ./tangent_steps/2019-12-22-12:42:56+01:00-2eac1ad4e793487f9b6ef18a9cf9c5987d1d78da/50_ormh.csv_downsampled_32.csv_log'' ...
+
